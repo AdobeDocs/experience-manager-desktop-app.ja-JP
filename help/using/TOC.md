@@ -9,9 +9,9 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 + [概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [インストールまたはアップグレード](install-upgrade.md)
-+ [アプリの使用](using.md)
++ [アプリケーションの使用](using.md)
 + [トラブルシューティング](troubleshoot.md)
 + 以前のバージョンのヘルプ {#archive}
    + [v1 のリリースノート](release-notes-of-v1.md)

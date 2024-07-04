@@ -3,15 +3,15 @@ title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーシ�
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2275'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションのトラブルシューティング {#troubleshoot-v2}
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションはに接続 [!DNL Experience Manager] デプロイメントのデジタルアセット管理（DAM）リポジトリ。 このアプリは、リポジトリ情報と検索結果をコンピューターで取得し、ファイルやフォルダーをダウンロードしてアップロードします。また、Assets ユーザーインターフェイスとの競合を管理する機能も含まれています。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションは、[!DNL Experience Manager] デプロイメントのデジタルアセット管理（DAM）リポジトリに接続します。デスクトップアプリケーションは、ユーザーのマシン上でリポジトリ情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
 
 デスクトップアプリケーションのトラブルシューティング、ベストプラクティス、制限事項について説明します。
 
@@ -19,31 +19,31 @@ ht-degree: 55%
 
 一般的な問題の回避やトラブルシューティングを図るには、次のベストプラクティスに従います。
 
-* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。の間のリンクについて [!DNL Experience Manager] web インターフェイスとデスクトップ、リポジトリのマッピング、アセットのキャッシュ、ローカルでの保存、バックグラウンドでのアップロード。 [動作の仕組み](release-notes.md#how-app-works)を参照してください。
+* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。[!DNL Experience Manager] web インターフェイスとデスクトップの連携、リポジトリマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
 
-* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字の一覧については、[ [!DNL Adobe Experience Manager Assets] でのフォルダーの作成](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)を参照してください。フォルダー名にサポートされていない文字が含まれていると、影響を受ける可能性があります [!DNL Experience Manager] ユースケース。
+* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字の一覧については、[ [!DNL Adobe Experience Manager Assets] でのフォルダーの作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)を参照してください。フォルダー名にサポートされていない文字が含まれていると、一部の [!DNL Experience Manager] のユースケースに影響する場合があります。
 
-* **競合を回避するためのベストプラクティス**：複数のアセットで共同作業する際に競合が発生する可能性を回避するには、次の場所に移動します。 [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **競合を回避するためのベストプラクティス**：複数のアセットに対する共同作業で競合が発生する可能性を避けるには、[編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-* **大きな階層フォルダーにはフォルダーアップロードを使用する**:Assets web インターフェイスやその他の手段を使用する代わりに、次を使用します [!DNL Experience Manager] 大きなフォルダーをアップロードするデスクトップアプリケーション。 アプリは、ログとモニタリングを使用して、バックグラウンドでアセットをアップロードします。 [アセットのバルクアップロード](using.md#bulk-upload-assets)を参照してください。
+* **大きな階層フォルダーにはフォルダーアップロードを使用する**：Assets web インターフェイスなどの方法を使用するのではなく、[!DNL Experience Manager] デスクトップアプリケーションを使用して大きなフォルダーをアップロードしてください。デスクトップアプリケーションでは、ログと監視を行いながら、アセットをバックグラウンドでアップロードします。[アセットのバルクアップロード](using.md#bulk-upload-assets)を参照してください。
 
-* **最新バージョンを使用**：最新バージョンのアプリを使用します。 新しいアプリバージョンをインストールする前や、新しいバージョンにアップグレードする前に、常に互換性を確認してください [!DNL Experience Manager] バージョン。 [リリースノート](release-notes.md)を参照してください。
+* **最新バージョンを使用する**：最新バージョンのデスクトップアプリケーションを使用してください。新しいバージョンのデスクトップアプリケーションをインストールする前や、新しいバージョンの [!DNL Experience Manager] にアップグレードする前に、常に互換性を確認してください。[リリースノート](release-notes.md)を参照してください。
 
 * **同じドライブ文字を使用する**：組織全体で同じドライブ文字を使用して、[!DNL Experience Manager] DAM にマッピングします。他のユーザーが配置したアセットを表示するには、同じパスを使用する必要があります。同じドライブ文字を使用することで、DAM アセットのパスが一定になります。別のユーザーが異なるドライブ文字を使用した場合でも、アセットはそのまま残り、削除されません。
 
-* **ネットワークに注意を払う**：[!DNL Experience Manager] デスクトップアプリケーションのパフォーマンスには、ネットワークのパフォーマンスが重要です。ファイル転送や一括操作への応答が遅くなる場合は、大量のネットワークトラフィックを引き起こす可能性のある機能やアプリをオフにします。
+* **ネットワークに注意を払う**：[!DNL Experience Manager] デスクトップアプリケーションのパフォーマンスには、ネットワークのパフォーマンスが重要です。ファイル転送や一括操作に対する応答が遅くなった場合は、大量のネットワークトラフィックを発生させる可能性のある機能やデスクトップアプリケーションを無効にしてください。
 
-* **デスクトップアプリケーションでサポートされていないユースケース**：このアプリは計画や追加のツールが必要なので、アセット移行には使用しないでください。 また、大きなフォルダーの移動、大きなアップロード、高度なメタデータ検索など、高負荷の DAM 操作にも適していません。 また、デザイン原則や使用パターンは、Microsoft OneDrive やAdobe Creative Cloud デスクトップ同期などの同期クライアントとは異なるので、同期クライアントとして使用しないでください。
+* **デスクトップアプリケーションでサポートされていないユースケース**：アセットの移行には計画と追加のツールが必要になるので、デスクトップアプリケーションは使用しないでください。また、大きなフォルダーの移動、大規模なアップロード、高度なメタデータ検索など、負荷の高い DAM 操作にも適していません。さらに、そのデザインの原則および使用パターンは Microsoft OneDrive や Adobe Creative Cloud デスクトップ同期などの同期クライアントとは異なるので、同期クライアントとして使用しないでください。
 
-* **タイムアウト**：現在、デスクトップアプリケーションには、接続を切断する設定可能なタイムアウト値がありません [!DNL Experience Manager] 一定の時間間隔の後のサーバーとデスクトップアプリケーション。 サイズの大きいアセットをアップロードする際に、しばらくして接続がタイムアウトした場合、アプリケーションはアップロードタイムアウトを長くして、アセットのアップロードを数回再試行します。デフォルトのタイムアウト設定を変更するお勧めの方法はありません。
+* **タイムアウト**：現在、デスクトップアプリケーションには、一定時間の経過後に [!DNL Experience Manager] サーバーとデスクトップアプリケーションの間の接続を切断するための設定可能なタイムアウト値がありません。サイズの大きいアセットをアップロードする際に、しばらくして接続がタイムアウトした場合、アプリケーションはアップロードタイムアウトを長くして、アセットのアップロードを数回再試行します。デフォルトのタイムアウト設定を変更するお勧めの方法はありません。
 
 ## トラブルシューティング方法 {#troubleshooting-prep}
 
-デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、サポートを依頼する場合に、Adobeカスタマーサポートに問題を伝える準備にもなります。
+デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、それにより、サポートを依頼する場合にも、アドビカスタマーサポートに問題を伝えやすくなります。
 
 ### ログファイルの場所 {#check-log-files-v2}
 
-この [!DNL Experience Manager] デスクトップアプリケーションは、オペレーティングシステムに応じて、以下の場所にログファイルを保存します。
+[!DNL Experience Manager] デスクトップアプリケーションでは、オペレーティングシステムに応じて、次の場所にログファイルを保存します。
 
 Windows の場合： `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
@@ -59,13 +59,13 @@ Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 ログファイルの詳細レベルを変更するには：
 
-1. アプリケーションが実行されていないことを確認します。
+1. デスクトップアプリケーションが動作していないことを確認します。
 
 1. Windows システムの場合：
 
    1. コマンドウィンドウを開きます。
 
-   1. を起動する [!DNL Adobe Experience Manager] 次のコマンドを実行してデスクトップアプリケーションを実行します。
+   1. 次のコマンドを実行して、[!DNL Adobe Experience Manager] デスクトップアプリケーションを起動します。
 
    ```shell
    set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
@@ -75,7 +75,7 @@ Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
    1. ターミナルウィンドウを開きます。
 
-   1. を起動する [!DNL Adobe Experience Manager] 次のコマンドを実行してデスクトップアプリケーションを実行します。
+   1. 次のコマンドを実行して、[!DNL Adobe Experience Manager] デスクトップアプリケーションを起動します。
 
    ```shell
    AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`。
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -121,7 +121,7 @@ Windows でデバッグモードを有効にするには：
 
 以下の手順を実行します。
 
-1. アプリケーションを起動し、のインスタンスに接続します。 [!DNL Experience Manager].
+1. デスクトップアプリケーションを起動し、[!DNL Experience Manager] のインスタンスに接続します。
 
 1. 右上隅の三点リーダーアイコンをクリックし「[!UICONTROL Preferences]」を選択して、アプリケーションの環境設定を開きます。
 
@@ -131,7 +131,7 @@ Windows でデバッグモードを有効にするには：
 
 >[!CAUTION]
 >
->これらの手順は、破壊的な可能性がある操作です。 にアップロードされていないローカルファイルの変更がある場合 [!DNL Adobe Experience Manager]その後、これらの変更は失われます。
+>これらの手順は、破壊的な操作となる可能性があります。ローカルファイルの変更内容が [!DNL Adobe Experience Manager] にアップロードされていない場合、これらの変更内容は失われます。
 
 アプリケーションの環境設定にあるアプリケーションのキャッシュディレクトリを削除すると、キャッシュはクリアされます。
 
@@ -141,9 +141,9 @@ Windows でデバッグモードを有効にするには：
 
 1. 「[!UICONTROL Cache Directory]」の値をメモしておきます。
 
-   このディレクトリには、エンコードされたという名前のサブディレクトリが存在します [!DNL Adobe Experience Manager] エンドポイント。 名前は、ターゲットののエンコードされたバージョンです [!DNL Adobe Experience Manager] URL。 例えば、アプリケーションがターゲティングを行っているとします `localhost:4502`を指定すると、ディレクトリ名はになります。 `localhost_4502`.
+   このディレクトリには、エンコードされた [!DNL Adobe Experience Manager] エンドポイントにちなんだ名前のサブディレクトリがあります。これらの名前は、ターゲットとなる [!DNL Adobe Experience Manager] URL のエンコード済みバージョンです。例えば、アプリケーションのターゲットが `localhost:4502` の場合、ディレクトリ名は `localhost_4502` となります。
 
-キャッシュをクリアするには、エンコードされた目的の [!DNL Adobe Experience Manager] エンドポイントディレクトリを削除します。または、環境設定で指定したディレクトリ全体を削除すると、アプリケーションで使用されているすべてのインスタンスのキャッシュがクリアされます。
+キャッシュをクリアするには、エンコードされた目的の [!DNL Adobe Experience Manager] エンドポイントディレクトリを削除します。または、環境設定で指定したディレクトリ全体を削除すると、アプリケーションで使用されているすべてのインスタンスでキャッシュがクリアされます。
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションのキャッシュのクリアは、トラブルシューティングの予備的作業で、これによりいくつかの問題を解決できます。キャッシュのクリアは、アプリの環境設定からおこないます。[環境設定の指定](install-upgrade.md#set-preferences)を参照してください。キャッシュフォルダーのデフォルトの場所は次のとおりです。
 
@@ -159,15 +159,15 @@ Windows でデバッグモードを有効にするには：
 
 * 権限。配置されたアセットを取得する権限があるかどうかを確認するには、[!DNL Experience Manager] 管理者に問い合わせてください。
 
-### デスクトップアプリケーションのユーザーインターフェイスでおこなったファイルの編集はに反映されません [!DNL Adobe Experience Manager] 即時 {#changes-on-da-not-visible-on-aem}
+### デスクトップアプリケーションのユーザーインターフェイスで行ったファイルの編集は [!DNL Adobe Experience Manager] にすぐには反映されません {#changes-on-da-not-visible-on-aem}
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションでは、ファイルに対するすべての編集が完了するタイミングをユーザーが決定できます。ファイルのサイズと複雑さによっては、新しいバージョンのファイルをに転送し直すのに、かなりの時間がかかります [!DNL Adobe Experience Manager]. このアプリケーションは、推測された編集の完了に基づいてファイルを自動的にアップロードするのではなく、ファイル転送数を最小限に抑えるように設計されています。 ファイルの変更内容のアップロードを選択して、[!DNL Adobe Experience Manager] へのファイルの転送を開始するようにお勧めします。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションでは、ファイルに対するすべての編集が完了するタイミングをユーザーが決定できます。ファイルのサイズと複雑さによっては、ファイルの新しいバージョンを [!DNL Adobe Experience Manager] に戻すのに、かなりの時間がかかります。デスクトップアプリケーションは、推測された編集の完了に基づいてファイルを自動的にアップロードするのではなく、ファイル転送数を最小限に抑えるように設計されています。ファイルの変更内容のアップロードを選択して、[!DNL Adobe Experience Manager] へのファイルの転送を開始するようにお勧めします。
 
 ### macOS でアップグレードする際の問題 {#issues-when-upgrading-on-macos}
 
-場合によっては、のアップグレード時に問題が発生することがあります [!DNL Experience Manager] macOSのデスクトップアプリケーション。 のレガシーシステムフォルダー [!DNL Experience Manager] デスクトップアプリケーションでは、これらの問題が発生します。 フォルダーにより、の新しいバージョンを使用できなくなります。 [!DNL Experience Manager] デスクトップアプリケーションが正しく読み込まれるようにします。 この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
+macOS で [!DNL Experience Manager] デスクトップアプリケーションをアップグレードする際に問題が発生することがあります。[!DNL Experience Manager] デスクトップアプリケーションの従来のシステムフォルダーで、これらの問題が発生します。フォルダーにより、新しいバージョンの [!DNL Experience Manager] デスクトップアプリケーションが正しく読み込まれなくなります。この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
 
-次の手順を実行する前に、 `Adobe Experience Manager Desktop` アプリケーションをmacOSのアプリケーションフォルダーからごみ箱に移動します。 次に、ターミナルを開き、次のコマンドを実行し、プロンプトが表示されたらパスワードを入力します。
+以下の手順を実行する前に、`Adobe Experience Manager Desktop` アプリケーションを macOS のアプリケーションフォルダーからごみ箱にドラッグします。次に、ターミナルを開き、以下のコマンドを実行します。パスワードを求められたら入力します。
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -180,19 +180,19 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## ファイルをアップロードできない {#upload-fails}
 
-デスクトップアプリケーションをで使用する場合 [!DNL Experience Manager] 6.5.1 以降、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードしてください。 に関連するファイルアップロードの失敗の問題を解決します [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). [インストール手順](install-upgrade.md#install-v2)を参照してください。
+デスクトップアプリケーションを [!DNL Experience Manager] 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
 
 ## [!DNL Experience Manager] デスクトップアプリケーションの接続の問題 {#connection-issues}
 
-一般的な接続の問題が発生している場合は、次の方法で詳細を確認できます [!DNL Experience Manager] デスクトップアプリケーションが実行中です。
+接続に関する一般的な問題が発生した場合は、[!DNL Experience Manager] デスクトップアプリケーションの処理内容に関する詳しい情報を以下のいずれかの方法で入手できます。
 
 **リクエストログの確認**
 
-この [!DNL Experience Manager] デスクトップアプリケーションは、送信したすべてのリクエストと各リクエストの応答コードを専用のログファイルに記録します。
+[!DNL Experience Manager] デスクトップアプリケーションでは、送信したすべてのリクエストと各リクエストの応答コードが専用のログファイルに記録されます。
 
 1. アプリケーションのログディレクトリで `request.log` を開いて、これらのリクエストを確認します。
 
-1. ログの各行は、リクエストか応答のどちらかを表しています。リクエストにはが含まれています `>` リクエストされた URL の後に文字が続く。 回答にはが含まれています `<` 文字の後に応答コードとリクエストされた URL が続きます。 各行の GUID を使用して、リクエストと応答を照合できます。
+1. ログの各行は、リクエストか応答のどちらかを表しています。リクエストには、`>` 文字に続いて、リクエストされた URL が含まれます。応答には、`<` 文字に続いて、応答コードとリクエストされた URL が含まれます。各行の GUID を使用して、リクエストと応答を照合できます。
 
 **読み込まれたリクエストをアプリケーションの組み込みブラウザーで確認**
 
@@ -202,9 +202,9 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 [!DNL Experience Manager] デスクトップアプリケーションは、SSO 対応（SAML）[!DNL Adobe Experience Manager] デプロイメントに接続できない場合があります。SSO 接続およびプロセスのバリエーションと複雑さに対応するようにアプリケーションを設計します。ただし、設定については、追加のトラブルシューティングが必要になる可能性があります。
 
-SAML プロセスが、最初にリクエストされたパスにリダイレクトされない場合があります。 または、で設定されているものとは異なるホストにリダイレクトされます。 [!DNL Adobe Experience Manager] デスクトップアプリケーション。 この問題が該当しないことを確認するには、次の手順を実行します。
+SAML プロセスが、最初にリクエストされたパスにリダイレクトされない場合があります。または、最終的なリダイレクトが、[!DNL Adobe Experience Manager] デスクトップアプリケーションで設定されているホストとは異なるホストに行われます。この問題が発生していないことを確認するには、次の手順を実行します。
 
-1. Web ブラウザーを開きます。 `https://[aem_server]:[port]/content/dam.json` の URL にアクセスします。
+1. Web ブラウザーを開きます。`https://[aem_server]:[port]/content/dam.json` の URL にアクセスします。
 
 1. [!DNL Adobe Experience Manager] デプロイメントにログインします。
 
@@ -212,9 +212,9 @@ SAML プロセスが、最初にリクエストされたパスにリダイレク
 
 1. また、`/content/dam.json` より前の部分がすべて、[!DNL Adobe Experience Manager] デスクトップアプリの設定で指定されたターゲット [!DNL Adobe Experience Manager] 値と一致していることを確認してください。
 
-**ログイン SAML プロセスは上記の手順に従って正しく機能しますが、ユーザーはまだログオンできません**
+**上記の手順に従ってログイン SAML プロセスは正常に動作するが、ユーザーはまだログインできない**
 
-内のウィンドウ [!DNL Adobe Experience Manager] ログインプロセスを表示するデスクトップアプリは、ターゲットを表示する web ブラウザーにすぎません [!DNL Adobe Experience Manager] インスタンスの web ユーザーインターフェイス：
+ログインプロセスを表示する [!DNL Adobe Experience Manager] デスクトップアプリケーション内のウィンドウは、ターゲット [!DNL Adobe Experience Manager] インスタンスの web ユーザーインターフェイスを表示する web ブラウザーにすぎません。
 
 * Mac 版では [WebView](https://developer.apple.com/documentation/webkit/webview) が使用されます。
 
@@ -228,33 +228,33 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 1. ログインの試行を再現します。
 
-1. に移動します。 [ログディレクトリ](#check-log-files-v2) アプリケーションの。
+1. デスクトップアプリケーションの[ログディレクトリ](#check-log-files-v2)に移動します。
 
 1. Windows の場合：
 
    1. 「aemcompanionlog.txt」を開きます。
 
-   1. 「Login browser address changed to」で始まるメッセージを検索します。 これらのエントリには、アプリケーションが読み込んだ URL も含まれています。
+   1. 「Login browser address changed to」で始まるメッセージを検索します。これらのエントリには、アプリケーションが読み込んだ URL も含まれています。
 
    Mac の場合：
 
-   1. 対象： `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`。最新のファイル名で次の値を置換 **n**.
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log` では、最新のファイル名に含まれる数字が **n** に置き換えられます。
 
-   1. 「読み込まれたフレーム」で始まるメッセージを検索します。 これらのエントリには、アプリケーションが読み込んだ URL も含まれています。
+   1. 「loaded frame」で始まるメッセージを検索します。これらのエントリには、アプリケーションが読み込んだ URL も含まれています。
 
 読み込まれる URL シーケンスを調べると、SAML の終わりでトラブルシューティングして、何が悪いかを判断するのに役立ちます。
 
 ### SSL 設定の問題 {#ssl-config-v2}
 
-が実行するライブラリ [!DNL Experience Manager] を使用した HTTP 通信では、デスクトップアプリケーションで厳密な SSL 強制が使用されます。 ブラウザーを使用した接続が成功しても、を使用した接続が失敗する場合があります [!DNL Experience Manager] デスクトップアプリケーション。 SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールするには](https://access.redhat.com/solutions/43575)を参照してください。
+[!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリは、厳格に SSL を適用します。ブラウザーでは成功する接続が、[!DNL Experience Manager] デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールするには](https://access.redhat.com/solutions/43575)を参照してください。
 
-が実行するライブラリ [!DNL Experience Manager] デスクトップアプリケーションで HTTP 通信にを使用する場合は、厳密な SSL 強制を使用します。 そのため、ブラウザーを介した SSL 接続が成功せず、で失敗する場合があります [!DNL Adobe Experience Manager] デスクトップアプリケーション。 この結果は、SSL の正しい設定を奨励し、セキュリティを強化するので優れていますが、アプリケーションが接続できない場合はフラストレーションが生じる可能性があります。
+[!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリは、厳格に SSL を適用します。そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。この結果は、SSL の正しい設定を推奨しセキュリティを強化するので問題ありませんが、アプリケーションが接続できないことによって不満が生じる可能性があります。
 
-このような場合の推奨されるアプローチは、ツールを使用してサーバーの SSL 証明書を分析し、問題を特定して修正できるようにすることです。URL を指定してサーバーの証明書を検査する Web サイトがあります。
+このような場合の推奨されるアプローチは、ツールを使用してサーバーの SSL 証明書を分析し、問題を特定して修正できるようにすることです。URL を提供するとサーバーの証明書を検査する web サイトがあります。
 
-一時的な対策として、で厳密な SSL 強制を無効にすることができます。 [!DNL Adobe Experience Manager] デスクトップアプリケーション。 このアプローチは、誤って設定された SSL の根本原因を隠すことでセキュリティを軽減するので、推奨される長期的なソリューションではありません。 厳密な強制を無効にするには：
+一時的な対策として、[!DNL Adobe Experience Manager] デスクトップアプリケーションで厳密な SSL の強制を無効にすることができます。このアプローチは、SSL の設定が間違っているという根本原因を隠すことによってセキュリティが低下するため、長期的な解決策としては推奨されません。厳密な強制を無効にするには：
 
-1. 任意のエディターを使用して、アプリケーションの JavaScript 設定ファイルを編集します。このファイルは、（オペレーティングシステムに応じて）次の場所にあります。
+1. 任意のエディターを使用して、アプリケーションの JavaScript 設定ファイルを編集します。このファイルは、オペレーティングシステムに応じて（デフォルトでは）次の場所にあります。
 
    Mac の場合： `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
 
@@ -279,7 +279,7 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
    ...
    ```
 
-1. ファイルを保存して、 [!DNL Adobe Experience Manager] デスクトップアプリケーション。
+1. ファイルを保存し、[!DNL Adobe Experience Manager] デスクトップアプリケーションを再起動します。
 
 ### 別のサーバーに切り替える際のログインの問題 {#cannot-login-cookies-issue}
 
@@ -298,10 +298,10 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 ## 期限切れのアセットを非表示にする {#hide-expired-assets}
 
-内からのアセットの参照時 [!DNL Experience Manager] ユーザーインターフェイスに、期限切れのアセットは表示されません。 管理者は、デスクトップアプリと Asset Link から参照する際に、期限切れのアセットが表示、検索、および取得されないように設定を指定できます。 これにより、これらの操作中に有効期限切れのアセットにアクセスできなくなります。 この設定は、管理者権限に関係なく、すべてのユーザーで機能します。
+[!DNL Experience Manager] ユーザーインターフェイス内からアセットを参照すると、期限切れのアセットは表示されません。管理者は、デスクトップアアプリケーションと Asset Link から参照する際に、期限切れのアセットの表示、検索、取得を防止する設定を使用できます。この設定により、これらの操作中に期限切れのアセットにアクセスできなくなります。この設定は、管理者権限に関係なく、すべてのユーザーで機能します。
 
-* [期限切れのアセットを非表示にするよう Experience Manager 6.5 を設定します](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
-* [期限切れのアセットを非表示にするよう Experience Manager as a Cloud Service を設定します](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
+* [期限切れのアセットを非表示にするよう Experience Manager 6.5 を設定します](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
+* [期限切れのアセットを非表示にするよう Experience Manager as a Cloud Service を設定します](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
