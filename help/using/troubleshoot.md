@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーシ�
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`。
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 

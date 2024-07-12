@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 100%
 

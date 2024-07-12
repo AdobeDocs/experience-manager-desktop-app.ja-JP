@@ -3,7 +3,7 @@ title: デスクトップアプリケーション v1.10 のインストールと
 description: ' [!DNL Experience Manager] デスクトップアプリバージョン 1.10 [!DNL Assets]  をインストールして、 サーバーと連携しアセットをデスクトップのドライブとしてマウントするように設定します。'
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -127,6 +127,6 @@ macOS X では、同様のディレクトリが `~/Library/Group Containers/grou
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL Experience Manager]  デスクトップアプリケーション](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)の概要を視聴してください（5 分 43 秒）。
->* [ [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
->* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+* [ [!DNL Experience Manager]  デスクトップアプリケーション](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)の概要を視聴してください（5 分 43 秒）。
+* [ [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
+* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)

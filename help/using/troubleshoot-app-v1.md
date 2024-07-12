@@ -3,7 +3,7 @@ title: デスクトップアプリケーションバージョン 1.10 のトラ�
 description: ' [!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.10 のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。'
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3331'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 

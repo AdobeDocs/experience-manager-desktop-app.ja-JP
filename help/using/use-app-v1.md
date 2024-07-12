@@ -4,7 +4,7 @@ description: Adobe Experience Manager デスクトップアプリケーション
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2329'
 ht-degree: 100%
 

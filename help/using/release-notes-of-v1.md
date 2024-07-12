@@ -3,7 +3,7 @@ title: デスクトップアプリケーション v1.10 のリリースノート
 description: AEM デスクトップアプリケーションバージョン 1.10. のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
 source-git-commit: 23719d2f5d92f6031687df18036acdbc04722402
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3989'
 ht-degree: 100%
 
