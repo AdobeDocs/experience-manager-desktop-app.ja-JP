@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 11a4397aa54cd58395b02273864f4edd843357a1
-workflow-type: ht
-source-wordcount: '1953'
-ht-degree: 100%
+source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+workflow-type: tm+mt
+source-wordcount: '1955'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 デスクトップアプリの最新バージョンには、次のバグ修正と機能強化が含まれています。
 
-* 新しい Enterprise Windows インストーラーは Program Files の下にアプリケーションをインストールします。
+* 新しい Enterprise Windows インストーラは、Program Files の下にアプリケーションをインストールします。
 * AEM および SSO ログイン時の&#x200B;**基本認証**&#x200B;のサポート。
 * アップロード操作中に許可されるアセットの数が設定可能。
 
