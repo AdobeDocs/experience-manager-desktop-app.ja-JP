@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4734'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 85%
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
-![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク")
+![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 
 <!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
@@ -47,7 +47,7 @@ ht-degree: 85%
 
 * 「**[!UICONTROL Open]**」アクション：アセットを開いて、ネイティブアプリケーションでプレビューするだけです。アドビでは、この操作を使用してアセットを編集しないことをお勧めします。アセットがチェックアウトされないからです。その間、他のユーザーが編集を行うと、編集の競合が発生する可能性があります。
 
-* **[!UICONTROL Open with]** アクション：「プログラムから開く」機能を使用すると、デフォルトのアプリケーション以外の特定のアプリケーションでファイルを開くことができます。 これは、好みのプログラムを選択したり、異なる形式のファイルにアクセスしたり、デフォルトのアプリに関する問題をトラブルシューティングしたり、複数のプログラムを操作したりする場合に役立ちます。 設定を永続的に変更せずに、デフォルトのアプリケーションを一時的に上書きできるようにすることで、柔軟性を提供します。
+* **[!UICONTROL Open with]** アクション：「プログラムから開く」機能を使用すると、デフォルトのアプリケーション以外の特定のアプリケーションでファイルを開くことができます。これは、好みのプログラムを選択したり、異なる形式のファイルにアクセスしたり、デフォルトのアプリに関する問題をトラブルシューティングしたり、複数のプログラムで作業したりする場合に役立ちます。設定を永続的に変更せずに、デフォルトのアプリケーションを一時的に上書きできるようにすることで、柔軟性を提供します。
 
 * 「**[!UICONTROL Open In Web]**」アクション：[!DNL Experience Manager] Web インターフェイスでアセットを確認するには、アセットを web で開きます。[!DNL Experience Manager] インターフェイスからは、メタデータの更新やアセットの検出など、さらに多くのワークフローを開始できます。
 
@@ -76,25 +76,25 @@ ht-degree: 85%
 
 ## アセットの表示 {#view-assets}
 
-AEM デスクトップアプリケーションでは、次の 4 つの異なるビューでアセットを表示できます。
+AEM デスクトップアプリでは、次の 4 つの異なるビューでアセットを表示できます。
 
-* **[!UICONTROL Show Assets]:** すべてのアセットを表示できます。
-* **[!UICONTROL Show Collections]:** ネイティブのAEM アプリケーションで作成されたすべてのコレクションを表示できます。 その他の [ コレクション ](#collections-desktop-app) を参照してください。
-* **[!UICONTROL Edited Locally]:** ローカルで変更されたすべてのアセットを表示できます。 この表示では、複数のアセットを追加してアップロードできます。
-* **[!UICONTROL Asset transfers]:** ネイティブアプリからローカルに、またはその逆に転送されたすべてのアセットを表示できます。
-* **[!UICONTROL Pinned items]:** ピン留めされたすべての項目を表示できます。
+* **[!UICONTROL Show Assets]：**&#x200B;すべてのアセットを表示できます。
+* **[!UICONTROL Show Collections]：**&#x200B;ネイティブの AEM アプリケーションで作成されたすべてのコレクションを表示できます。その他の[コレクション](#collections-desktop-app)を参照してください。
+* **[!UICONTROL Edited Locally]：**&#x200B;ローカルで変更されたすべてのアセットを表示できます。このビューでは、複数のアセットを追加してアップロードできます。
+* **[!UICONTROL Asset transfers]：**&#x200B;ネイティブアプリからローカルに、またはその逆に転送されたすべてのアセットを表示できます。
+* **[!UICONTROL Pinned items]：**&#x200B;ピン留めされたすべての項目を表示できます。
 
-AEM デスクトップアプリケーションでアセットの様々なビューの中から選択するには、次の手順を実行します。
+AEM デスクトップアプリでアセットの様々なビューの中から選択するには、次の手順を実行します。
 
-1. AEM デスクトップアプリケーションを開きます。
+1. AEM デスクトップアプリを開きます。
 
-1. 右上のビュードロップダウンに移動します 使用可能なビューから 1 つ選択します。
+1. 右上のビュードロップダウンに移動します。使用可能なビューから 1 つ選択します。
 
-   ![ フォルダーのピン留めまたはピン留めを解除 ](assets/view-pinned-assets.png)
+   ![フォルダーのピン留めまたはピン留めを解除](assets/view-pinned-assets.png)
 
-### 新しく追加されたフォルダーとファイルを表示する {#view-newly-added-files-folders}
+### 新しく追加されたフォルダーとファイルを表示 {#view-newly-added-files-folders}
 
-新しく作成したアセットをローカルマシンからAEMにアップロードできます。この場合、中央リポジトリが保存されます。 これらの新しく作成されたアセットをローカルに表示するには、**[!UICONTROL View]** ドロップダウンメニューに移動して「**[!UICONTROL Show Assets]**」を選択し、タイムラインとタイトルを含むすべてのアップデートを表示するか、「**[!UICONTROL Edited Locally]**」を選択します。 どちらのオプションでも、ローカルに編集されたアセットが明示的に表示されます。
+新しく作成したアセットをローカルマシンから、中央リポジトリが格納されている AEM にアップロードできます。これらの新しく作成されたアセットをローカルに表示するには、**[!UICONTROL View]** ドロップダウンメニューに移動して「**[!UICONTROL Show Assets]**」を選択し、タイムラインとタイトルを含むすべてのアップデートを表示するか、「**[!UICONTROL Edited Locally]**」を選択します。どちらのオプションでも、ローカルに編集されたアセットが明示的に表示されます。
 
 ## アセットの参照、検索、プレビュー {#browse-search-preview-assets}
 
@@ -121,29 +121,29 @@ AEM デスクトップアプリケーションでアセットの様々なビュ�
 
 ## アセット管理 {#assets-management}
 
-アセット管理には、ワークフローを合理化するためのデジタルアセットの整理、維持管理および最適化が含まれます。 ファイルの複製と名前変更、フォルダーのピン留めまたはピン留めを解除してすばやくアクセス、様々なレイアウトでアセットを表示するなどのタスクが含まれます。 これにより、効率が向上し、アセットのトラッキングが簡素化され、複数のプラットフォーム間でデジタルアセットを簡単に取得および整理できます。
+アセット管理では、ワークフローを合理化するためのデジタルアセットの整理、維持管理および最適化を行います。これには、ファイルの複製と名前変更、クイックアクセスのためのフォルダーのピン留めまたはピン留め解除、様々なレイアウトでのアセットの表示などのタスクが含まれます。これにより、効率が向上し、アセットのトラッキングが簡素化され、複数のプラットフォーム間でデジタルアセットを簡単に取得および整理できます。
 
 ### 重複ファイル {#duplicate-files}
 
-元のファイルを保持し、類似したファイルに変更を加える場合は、異なる場所（ローカルとクラウド）でファイルを同時に複製できます。 これは、アセットをまたいだ「ファイルを複製」操作で実現できます。
+元のファイルを保持し、類似したファイルに変更を加える場合は、異なる場所（ローカルとクラウド）でファイルを同時に複製できます。これは、アセットをまたいだ「ファイルを複製」操作で実現できます。
 
-AEM デスクトップアプリケーションでファイルを複製するには、次の手順に従います。
+AEM デスクトップアプリでファイルを複製するには、次の手順に従います。
 
 1. フォルダーを参照し、複製するアセットを選択します。
 
-   ![ 重複ファイル ](assets/more-options.png)
+   ![重複ファイル](assets/more-options.png)
 
-1. ![ そ **[!UICONTROL More actions]** 他のアクション ](assets/do-not-localize/more2_da2.png) アイコンをクリックし、![ 複製アイコン ](assets/do-not-localize/duplicate.svg) アクション **[!UICONTROL Duplicate File]** 選択します。
+1. **[!UICONTROL More actions]** ![他のアクションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、![複製アイコン](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** アクションを選択します。
 
-1. 重複したファイルは、同じファイル名とコンテンツで作成されます。
+1. 重複ファイルは、同じファイル名とコンテンツで作成されます。
 
-### アセットのタイトルの名前を変更 {#rename-asset-title}
+### アセットのタイトルの名前を変更する {#rename-asset-title}
 
 アセットのタイトルの名前を変更するには、次の手順を実行します。
 
 1. 名前を変更するアセットを参照します。
 
-1. ![ そ **[!UICONTROL More actions]** 他のアクション ](assets/do-not-localize/more2_da2.png) アイコンをクリックし、「**[!UICONTROL Rename]**」を選択してアセットの目的のタイトルを追加します。
+1. **[!UICONTROL More actions]** ![他のアクションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、「**[!UICONTROL Rename]**」を選択してアセットの目的のタイトルを追加します。
 
 <!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
 
@@ -155,23 +155,23 @@ AEM デスクトップアプリケーションでファイルを複製するに�
 
 1. ピン留めまたはピン留めを解除するアセットを参照します。
 
-1. ![ そ **[!UICONTROL More actions]** 他のアクション ](assets/do-not-localize/more2_da2.png) アイコンをクリックし、アセットまたはフォルダーをピン留めする [!UICONTROL pin] を選択します。 または、「[!UICONTROL unpin]」をクリックしてピン留めを解除します。
+1. **[!UICONTROL More actions]** ![他のアクションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、「[!UICONTROL pin]」を選択してアセットまたはフォルダーをピン留めします。または、「[!UICONTROL unpin]」をクリックしてピン留めを解除します。
 
-   ![ フォルダーのピン留めまたはピン留めを解除 ](assets/pin-unpin.png)
+   ![フォルダーのピン留めまたはピン留めを解除](assets/pin-unpin.png)
 
 ### 自動更新 {#auto-refresh}
 
-自動更新機能により、コンテンツがリアルタイムで自動的に更新されるので、ページを手動で再読み込みすることなく、常に最新情報を確認できます。 以下の手順を実行してアセットを自動的に更新し、更新されたアセットのリストを取得します。
+自動更新機能により、コンテンツがリアルタイムで自動的に更新されるので、ページを手動で再読み込みすることなく、常に最新情報を確認できます。以下の手順を実行してアセットを自動的に更新し、更新されたアセットのリストを取得します。
 
-1. AEM デスクトップアプリケーションを開きます。
+1. AEM デスクトップアプリを開きます。
 
-1. メニューバーの ![ 更新アイコン ](assets/do-not-localize/refresh.png) をクリックして、更新内容を取得します。
+1. メニューバーの ![更新アイコン](assets/do-not-localize/refresh.png) をクリックして、更新内容を取得する。
 
 ## アセットのダウンロード {#download-assets}
 
 アセットはローカルファイルシステムにダウンロードできます。デスクトップアプリケーションは [!DNL Experience Manager] サーバーからアセットを取得し、それと同じコピーをローカルファイルシステムに保存します。
 
-オプション **[!UICONTROL More actions]** 場合は ![ その他のオプションアイコン ](assets/do-not-localize/more2_da2.png) をクリックし、ダウンロードする場合は ![ ダウンロードアイコン ](assets/do-not-localize/download_cloud_da2.png) をクリックします。
+オプション用に **[!UICONTROL More actions]** ![その他のオプションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、![ダウンロードアイコン](assets/do-not-localize/download_cloud_da2.png) をクリックしてダウンロードします。
 
 ![アセットのダウンロードオプション](assets/download_option_da2.png "アセットのダウンロードオプション")
 
@@ -202,37 +202,37 @@ AEM デスクトップアプリケーションでファイルを複製するに�
 
 ## コレクション {#collections-desktop-app}
 
-AEM デスクトップアプリケーションを使用すると、アプリケーションで作成されたコレクションを [ 表示 ](#view-collections-desktop-app)、[ ダウンロード ](#download-collections-desktop-app) 参照 [!DNL Adobe Experience Manager Assets] きます。
+AEM デスクトップアプリを使用すると、[!DNL Adobe Experience Manager Assets]アプリケーションで作成されたコレクションを[表示](#view-collections-desktop-app)、[ダウンロード](#download-collections-desktop-app)、参照できます。
 
 ### コレクションの表示 {#view-collections-desktop-app}
 
-Desktop アプリでコレクションを表示するには、次の手順を実行します。
+デスクトップアプリでコレクションを表示するには、次の手順を実行します。
 
-1. AEM デスクトップアプリケーションを開き、[ アセットを表示 ](#view-assets) に移動します。
+1. AEM デスクトップアプリを開き、[アセットを表示](#view-assets)に移動します。
 
-1. 「**[!UICONTROL Show Collections]**」を選択します。 ネイティブアプリケーションで使用できるコレクションが表示されます。
+1. **[!UICONTROL Show Collections]** を選択します。ネイティブアプリケーションで使用できるコレクションが表示されます。
 
-   ![ コレクションデスクトップアプリ ](assets/collections-desktop-app.png)
+   ![コレクションデスクトップアプリ](assets/collections-desktop-app.png)
 
-### コレクションのダウンロード {#download-collections-desktop-app}
+### コレクションをダウンロード {#download-collections-desktop-app}
 
-Desktop アプリでコレクションをダウンロードするには、次の手順を実行します。
+デスクトップアプリでコレクションをダウンロードするには、次の手順を実行します。
 
-1. [ コレクションの表示 ](#view-collections-desktop-app) に示すように、手順 1 および 2 に従います。
+1. [コレクションの表示](#view-collections-desktop-app)に示すように、手順 1 および 2 に従います。
 
-1. ダウンロードするコレクションで、その他のアクション ![ その他のアクション ](assets/do-not-localize/more2_da2.png) その他のアクションアイコン）に移動します。
+1. ダウンロードするコレクションで、その他のアクション ![その他のアクションアイコン](assets/do-not-localize/more2_da2.png) に移動する。
 
-1. 「**[!UICONTROL Download]**」をクリックして、特定のコレクションをダウンロードします。
+1. 「**[!UICONTROL Download]**」をクリックして、特定のコレクションをダウンロードする。
 
 ## メタデータスキーマを使用したフォルダーの作成 {#create-folder-with-metadata-schema}
 
-AEM デスクトップアプリケーションを使用して、新しいフォルダーを作成する際にメタデータを割り当てることができます。 これを行うには、次の手順を実行します。
+AEM デスクトップアプリを使用して、新しいフォルダーを作成する際にメタデータを割り当てることができます。これを行うには、次の手順を実行します。
 
-1. ディレクトリを作成アイコン ![ フォルダーアイコンを追加 ](assets/do-not-localize/add-folder.svg) に移動します。 画面 **[!UICONTROL Create Directory]** 表示されます。
+1. ディレクトリを作成アイコン ![フォルダーアイコンを追加](assets/do-not-localize/add-folder.svg) に移動します。**[!UICONTROL Create Directory]** 画面が表示されます。
 
 1. 次の詳細を追加します。
    * フォルダーの **[!UICONTROL Name]**。
-   * フォルダーのメタデータ階層を選択する **[!UICONTROL Folder Metadata Schema]**、メタデータを関連付けない場合は **[!UICONTROL none]** を選択します。
+   * フォルダーのメタデータ階層を選択する場合は **[!UICONTROL none]**、メタデータを関連付けない場合は **[!UICONTROL Folder Metadata Schema]** を選択します。
 
 1. 「**[!UICONTROL OK]**」をクリックして、次に進みます。
 
