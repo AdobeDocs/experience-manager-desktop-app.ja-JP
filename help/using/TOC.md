@@ -8,20 +8,27 @@ user-guide-description: Adobe Experience Manager デスクトップアプリケ�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 70%
 
 ---
 
 
-# Adobe デスクトップアプリケーションガイド {#using}
+# Adobe Experience Manager デスクトップアプリケーションガイド {#get-started}
 
 + [概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [インストールまたはアップグレード](install-upgrade.md)
-+ [アプリケーションの使用](using.md)
++ [AEM デスクトップアプリケーションの基本を学ぶ](get-started.md)
++ [ユーザーインターフェイス](user-interface.md)
++ [検索](search.md)
++ [デスクトップアプリケーションの使用](using-desktop-app.md)
++ [Assets管理](assets-management-tasks.md)
++ [アセットのダウンロード](download-assets.md)
++ [アセットのアップロード](upload-assets.md)
++ [複数アセットの操作](working-with-multiple-assets.md)
 + [トラブルシューティング](troubleshoot.md)
 + 以前のバージョンのヘルプ {#archive}
    + [v1 のリリースノート](release-notes-of-v1.md)

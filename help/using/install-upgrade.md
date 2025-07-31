@@ -3,10 +3,10 @@ title: デスクトップアプリケーションのインストールと設定
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーション  [!DNL Adobe Experience Manager Assets]  をインストールして、 サーバーと連携しアセットをローカルファイルシステムにダウンロードするように設定します。'
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 100%
+source-wordcount: '1447'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * アプリケーションをダウンロードしてインストールします。下記の[デスクトップアプリケーションのインストール](#install-v2)を参照してください。
 
-* いくつかのアセットを使用して接続をテストします。[アセットの参照方法と検索方法](using.md#browse-search-preview-assets)を参照してください。
+* いくつかのアセットを使用して接続をテストします。[アセットの参照方法と検索方法](search.md#browse-search-preview-assets)を参照してください。
 
 ## 必要システム構成、前提条件およびダウンロードリンク {#tech-specs-v2}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
-1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。インストーラーを[ここ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)からダウンロードし、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルを両方ともインストールします。[!DNL Experience Manager] デスクトップアプリケーションインストーラーを再実行します。
+1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。[ インストーラーをダウンロード ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685) し、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルの両方をインストールします。 [!DNL Experience Manager] デスクトップアプリケーションインストーラーを再実行します。
 
 1. 指示に従ってコンピューターを再起動します。デスクトップアプリケーションを起動して設定します。
 
@@ -140,7 +140,7 @@ Windows のプロキシサーバー設定（インターネットオプション
 
 Windows でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、アプリケーションの「[!UICONTROL Exit]」を実行します。
+1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、アプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. 他の OS アプリケーションを削除する場合と同様に、デスクトップアプリケーションを削除します。Windows のプログラムの追加と削除からアンインストールします。
 
@@ -152,7 +152,7 @@ Windows でデスクトップアプリケーションをアンインストール
 
 Mac でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、アプリケーションの「[!UICONTROL Exit]」を実行します。
+1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、アプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. `/Applications` から `Adobe Experience Manager Desktop.app` を削除します。
 

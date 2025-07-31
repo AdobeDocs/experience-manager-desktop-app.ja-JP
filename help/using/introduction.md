@@ -3,7 +3,7 @@ title: ' [!DNL Experience Manager] デスクトップアプリケーションの
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリを使用して、 [!DNL Adobe Experience Manager Assets]  をデスクトップから直接使用する場合のクリエイティブユーザーのアセット管理ワークフローを最適化する方法を説明します。'
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 | 前提条件と技術仕様。ダウンロードリンク | [リリースノート](release-notes.md) |
 | デスクトップアプリケーションの既存ユーザーの場合は、アップグレードと移行をスムーズに進める方法 | [以前のバージョンからのアップグレード](install-upgrade.md#upgrade-from-previous-version) |
 | 導入方法。デフォルトの環境設定を調整する方法 | [デスクトップアプリケーションのインストールと設定](install-upgrade.md) |
-| アセットの参照、検出、編集、アップロード、競合の解決、一括操作などをおこなう方法 | [ [!DNL Experience Manager]  デスクトップアプリケーションの使用 ](using.md) |
+| アセットの参照、検出、編集、アップロード、競合の解決、一括操作などをおこなう方法 | [ [!DNL Experience Manager]  デスクトップアプリケーションの使用 ](using-desktop-app.md) |
 | 問題が発生していますか？ | [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot.md) |
 
 ## デスクトップアプリケーションの新機能 {#whats-new-v2}
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 この新しいデスクトップアプリケーションでは、以前と同じ使用例に対応しながら、ユーザーエクスペリエンスを大幅に改善しました。主要な改善点を以下に示します。
 
-* ユーザーは、アプリの組み込みブラウザー内で参照および検索して、アセットを検出します。これにより、仮想ネットワーク共有を表示する際に、Mac Finder や Windows エクスプローラーを使用する必要がなくなります。
+* ユーザーは、アプリのビルトインのブラウザー内で参照および検索して、アセットを検出します。これにより、仮想ネットワーク共有を表示する際に、Mac Finder や Windows エクスプローラーを使用する必要がなくなります。
 * 使用可能なアクションに関する明確なガイダンスが用意されています。
 * 帯域幅の使用量を減らすことで、パフォーマンスが向上しました。元のバイナリファイルは、必要な場合にのみダウンロードされます。アセットの参照と検索の場合には、小さなサムネールのみ転送されます。
 * バルクアップロードなどの一括操作に最適化されています。

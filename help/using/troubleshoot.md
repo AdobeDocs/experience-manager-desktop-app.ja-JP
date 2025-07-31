@@ -2,7 +2,7 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 100%
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 * **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字の一覧については、[ [!DNL Adobe Experience Manager Assets] でのフォルダーの作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)を参照してください。フォルダー名にサポートされていない文字が含まれていると、一部の [!DNL Experience Manager] のユースケースに影響する場合があります。
 
-* **競合を回避するためのベストプラクティス**：複数のアセットに対する共同作業で競合が発生する可能性を避けるには、[編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
+* **競合を回避するためのベストプラクティス**：複数のアセットに対する共同作業で競合が発生する可能性を避けるには、[編集上の競合の回避](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-* **大きな階層フォルダーにはフォルダーアップロードを使用する**：Assets web インターフェイスなどの方法を使用するのではなく、[!DNL Experience Manager] デスクトップアプリケーションを使用して大きなフォルダーをアップロードしてください。デスクトップアプリケーションでは、ログと監視を行いながら、アセットをバックグラウンドでアップロードします。[アセットのバルクアップロード](using.md#bulk-upload-assets)を参照してください。
+* **大きな階層フォルダーにはフォルダーアップロードを使用する**：Assets web インターフェイスなどの方法を使用するのではなく、[!DNL Experience Manager] デスクトップアプリケーションを使用して大きなフォルダーをアップロードしてください。デスクトップアプリケーションでは、ログと監視を行いながら、アセットをバックグラウンドでアップロードします。[アセットのバルクアップロード](using-desktop-app.md#bulk-upload-assets)を参照してください。
 
 * **最新バージョンを使用する**：最新バージョンのデスクトップアプリケーションを使用してください。新しいバージョンのデスクトップアプリケーションをインストールする前や、新しいバージョンの [!DNL Experience Manager] にアップグレードする前に、常に互換性を確認してください。[リリースノート](release-notes.md)を参照してください。
 
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`。
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -324,4 +324,4 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [既知の問題](release-notes.md#known-issues-v2)
->* [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [編集上の競合の回避](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)
