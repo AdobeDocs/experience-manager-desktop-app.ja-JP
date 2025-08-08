@@ -1,11 +1,11 @@
 ---
-title: デスクトップアプリケーションを使用したアセッ  [!DNL Experience Manager]  のアップロード
-description: デスクトップアプリケーションを使用し  [!DNL Adobe Experience Manager]  アセットをアップロードします。
+title: ' [!DNL Experience Manager]  デスクトップアプリケーションを使用したアセットのアップロード'
+description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用したアセットのアップロード'
 feature: Desktop App,Asset Management
 source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 85%
 
 ## 次の手順 {#next-steps}
 
-* [ ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
-* 右側のサイドバーにある [!UICONTROL Edit this page] ![ ページを編集 ](assets/do-not-localize/edit-page.png) または [!UICONTROL Log an issue]GitHub イシュー ![ 作成 ](assets/do-not-localize/github-issue.png) を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
 

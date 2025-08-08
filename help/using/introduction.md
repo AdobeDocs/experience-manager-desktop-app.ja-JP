@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリを�
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 

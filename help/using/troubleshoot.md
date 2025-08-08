@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーシ�
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2275'
 ht-degree: 100%
 

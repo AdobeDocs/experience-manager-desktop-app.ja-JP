@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1447'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
-1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。[ インストーラーをダウンロード ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685) し、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルの両方をインストールします。 [!DNL Experience Manager] デスクトップアプリケーションインストーラーを再実行します。
+1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。[インストーラーをダウンロード](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)し、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルの両方をインストールします。[!DNL Experience Manager] デスクトップアプリケーションインストーラーを再実行します。
 
 1. 指示に従ってコンピューターを再起動します。デスクトップアプリケーションを起動して設定します。
 

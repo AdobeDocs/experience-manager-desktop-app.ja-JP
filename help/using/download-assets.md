@@ -1,18 +1,18 @@
 ---
-title: デスクトップアプリケーションを使用したアセット  [!DNL Experience Manager]  ダウンロード
-description: デスクトップアプリケーションを使用し  [!DNL Adobe Experience Manager]  アセットのダウンロード。
+title: ' [!DNL Experience Manager]  デスクトップアプリケーションを使用したアセットのダウンロード'
+description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用してアセットをダウンロードします。'
 feature: Desktop App,Asset Management
 source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# アセットのローカルダウンロード {#download-assets-locally}
+# ローカルでのアセットのダウンロード {#download-assets-locally}
 
-デスクトップアプリケーションは、[!DNL Experience Manager] サーバーからローカルファイルシステムにアセットを頻繁にダウンロードします。ダウンロードすると、帯域幅とディスク容量を消費します。シナリオを把握することで、ダウンロードが完了するまでの待ち時間を最適化できます。 アセットはローカルファイルシステムにダウンロードできます。デスクトップアプリケーションは [!DNL Experience Manager] サーバーからアセットを取得し、それと同じコピーをローカルファイルシステムに保存します。
+デスクトップアプリケーションは、[!DNL Experience Manager] サーバーからローカルファイルシステムにアセットを頻繁にダウンロードします。ダウンロードすると、帯域幅とディスク容量を消費します。状況を把握することで、ダウンロードが完了するまでの待ち時間を最適化できます。アセットはローカルファイルシステムにダウンロードできます。デスクトップアプリケーションは [!DNL Experience Manager] サーバーからアセットを取得し、それと同じコピーをローカルファイルシステムに保存します。
 
 オプション用に **[!UICONTROL More actions]** ![その他のオプションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、![ダウンロードアイコン](assets/do-not-localize/download_cloud_da2.png) をクリックしてダウンロードします。
 
@@ -40,15 +40,15 @@ ht-degree: 84%
 
 ## 次の手順 {#next-steps}
 
-* [ ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴して Adobe Experience Manager デスクトップアプリケーションの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
-* 右側のサイドバーにある [!UICONTROL Edit this page] ![ ページを編集 ](assets/do-not-localize/edit-page.png) または [!UICONTROL Log an issue]GitHub イシュー ![ 作成 ](assets/do-not-localize/github-issue.png) を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
 
 >[!MORELIKETHIS]
 >
 >* [アセットのアップロード](/help/using/upload-assets.md)
->* [ ユーザーインターフェイスについて ](/help/using/user-interface.md)
+>* [ユーザーインターフェイスについて](/help/using/user-interface.md)
 >* [検索](/help/using/search.md)
 

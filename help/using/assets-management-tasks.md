@@ -3,9 +3,9 @@ title: ' [!DNL Experience Manager]  デスクトップアプリケーション�
 description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使用すると、Windows または Mac のデスクトップから直接 [!DNL Adobe Experience Manager]  DAM アセットを操作し、他のアプリケーションで使用することができます。'
 feature: Desktop App,Asset Management
 source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ AEM デスクトップアプリでは、次の 4 つの異なるビューでア�
 
 * **[!UICONTROL Show Assets]：**&#x200B;すべてのアセットを表示できます。
 * **[!UICONTROL Show Collections]：**&#x200B;ネイティブの AEM アプリケーションで作成されたすべてのコレクションを表示できます。その他の[コレクション](#collections-desktop-app)を参照してください。
-* **[!UICONTROL Edited Locally]：**&#x200B;ローカルで変更されたすべてのアセットを表示できます。このビューでは、複数のアセットを追加してアップロードできます。
+* **[!UICONTROL Edited Locally]：**&#x200B;ローカルで変更されたすべてのアセットを表示できます。このビューでは、複数のアセットを追加およびアップロードできます。
 * **[!UICONTROL Asset transfers]：**&#x200B;ネイティブアプリからローカルに、またはその逆に転送されたすべてのアセットを表示できます。
 * **[!UICONTROL Pinned items]：**&#x200B;ピン留めされたすべての項目を表示できます。
 
@@ -44,17 +44,17 @@ AEM デスクトップアプリでファイルを複製するには、次の手�
 
 1. フォルダーを参照し、複製するアセットを選択します。
 
-   ![ その他のオプション ](assets/more-options1.png)
+   ![その他のオプション](assets/more-options1.png)
 
 1. **[!UICONTROL More actions]** ![他のアクションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、![複製アイコン](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** アクションを選択します。
 
 1. 重複ファイルは、同じファイル名とコンテンツで作成されます。
 
-## アセットまたはフォルダーのタイトルの名前を変更 {#rename-asset-title}
+## アセットやフォルダーのタイトルの名前を変更する {#rename-asset-title}
 
-アセットまたはフォルダーのタイトルの名前を変更するには、次の手順を実行します。
+アセットやフォルダーのタイトルの名前を変更するには、次の手順を実行します。
 
-1. 名前を変更するアセットを参照します。 フォルダーに名前を付ける場合、`\ / : * ?  | < > [ ] %`；などの特殊文字は使用できません。 含める場合は、自動的にハイフン `-` に置き換えられます。
+1. 名前を変更するアセットを参照します。フォルダーに名前を付ける場合、`\ / : * ?  | < > [ ] %` ; などの特殊文字は使用できません。 含める場合は、自動的にハイフン `-` に置き換えられます。
 
 1. **[!UICONTROL More actions]** ![他のアクションアイコン](assets/do-not-localize/more2_da2.png) をクリックし、「**[!UICONTROL Rename]**」を選択してアセットの目的のタイトルを追加します。
 
@@ -160,9 +160,9 @@ AEM デスクトップアプリを使用して、新しいフォルダーを作�
 
 ## 次の手順 {#next-steps}
 
-* [ ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
-* 右側のサイドバーにある [!UICONTROL Edit this page] ![ ページを編集 ](assets/do-not-localize/edit-page.png) または [!UICONTROL Log an issue]GitHub イシュー ![ 作成 ](assets/do-not-localize/github-issue.png) を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL Edit this page] ![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
 
@@ -171,4 +171,4 @@ AEM デスクトップアプリを使用して、新しいフォルダーを作�
 >[!MORELIKETHIS]
 >
 >* [ユーザーインターフェイスについて](/help/using/user-interface.md)
->* [ はじめる前に ](/help/using/get-started.md).
+>* [はじめる前に](/help/using/get-started.md)。

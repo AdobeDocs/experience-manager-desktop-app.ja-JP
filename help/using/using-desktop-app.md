@@ -1,11 +1,11 @@
 ---
-title: デスクトップアプリケ  [!DNL Experience Manager]  ションの使用
-description: デスクトップアプリケ  [!DNL Adobe Experience Manager]  ションを使用します。
+title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用'
+description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用します。'
 feature: Desktop App,Asset Management
 source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 89%
 
 ## 次の手順 {#next-steps}
 
-* [ ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴して Adobe Experience Manager デスクトップアプリケーションの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
-* 右側のサイドバーにある [!UICONTROL Edit this page] ![ ページを編集 ](assets/do-not-localize/edit-page.png) または [!UICONTROL Log an issue]GitHub イシュー ![ 作成 ](assets/do-not-localize/github-issue.png) を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
 
 >[!MORELIKETHIS]
 >
->* [ ユーザーインターフェイスについて ](/help/using/user-interface.md)
->* [ デスクトップアプリケーションでのAssetsの管理 ](/help/using/assets-management-tasks.md)
+>* [ユーザーインターフェイスについて](/help/using/user-interface.md)
+>* [デスクトップアプリケーションでのアセットの検索](/help/using/assets-management-tasks.md)
 >* [検索](/help/using/search.md)

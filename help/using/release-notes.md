@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2470'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 89%
 * チェックインとチェックアウト機能を使用すると、ファイルを編集用にロック（チェックアウト）したり、他のユーザーが使用できるようにしながら変更を保存（チェックイン）したりすることで、ファイルへのアクセスを管理できます。
 * コレクションを表示、ダウンロードおよび参照できます。
 * 新しいフォルダーを作成する際に、メタデータを割り当てることができます。
-* Experience Manager デスクトップアプリケーションで、メタデータを保持しながらアセットやフォルダーを新しい場所に移動できるようになり、ファイルシステムの整理と効率化に役立ちます。
-* コレクション内で使用可能なフォルダーをダウンロードできるようになりました。
-* 書き出しオプションで、デスクトップアプリケーションから選択したファイルとフォルダーを、フラット構造の特定のターゲットの場所にダウンロードできるようになりました。
-* デスクトップアプリケーションは、ローカルファイルシステム上に既にダウンロードされているフォルダーの下に作成された新しいファイルを自動的に識別し、AEMにアップロードするようになりました。 デスクトップアプリケーションを開いたままにして、ローカルファイルシステム上の新しいファイルを識別する必要があります。
-* 自動同期機能を使用して、コレクション内でダウンロードしたアセットを、AEM Asset Management とローカルファイルシステムを定期的に同期できるようになりました。
-* AEM デスクトップアプリケーションで、フォルダーのサムネール、サイズ、パス、作成日、タグ、メタデータなどのフォルダープロパティを表示できるようになりました。
-* カード表示、グリッド表示、ツリー表示のアセットにアクセスして、整理されたクリーンで魅力的なアセットのレイアウトを作成できるようになりました。
-* デスクトップアプリケーションからターゲットのCreative Cloud アプリケーションにアセットをドラッグする機能。 デスクトップアプリケーションはアセットを自動的にチェックアウトし、ローカルファイルシステムにダウンロードします。
-* コレクションの一部であるアセットを更新すると、システムによって一時キャッシュフォルダーとデスクトップアプリケーション UI で自動的に更新されます。
-* アプリケーションをより直感的にするために、様々なオプションの様々なラベルが UI で更新されました。
+* Experience Manager デスクトップアプリケーションでは、メタデータを保持しながらアセットまたはフォルダーを新しい場所に移動でき、ファイルシステムの整理と効率化に役立ちます。
+* コレクション内で使用可能なフォルダーをダウンロードするためのサポートが追加されました。
+* 書き出しオプションを使用すると、デスクトップアプリケーションから選択したファイルとフォルダーをフラットな構造で特定のターゲットの場所にダウンロードできるようになりました。
+* デスクトップアプリケーションでは、ローカルファイルシステムに既にダウンロードされているフォルダーの下に作成された新しいファイルを自動的に識別し、AEM にアップロードするようになりました。ローカルファイルシステム上の新しいファイルを識別するには、デスクトップアプリケーションを開いたままにしておく必要があります。
+* 自動同期機能により、コレクション内のダウンロードされたアセットを、ローカルファイルシステムを使用する AEM アセット管理と定期的に同期できるようになりました。
+* AEM デスクトップアプリケーションでは、フォルダーのサムネール、サイズ、パス、作成日、タグ、メタデータなどのフォルダーのプロパティを表示できるようになりました。
+* カード表示、グリッド表示、ツリー表示でアセットにアクセスして、クリーンで整理された、視覚的に魅力的なアセットのレイアウトを実現できるようになりました。
+* デスクトップアプリケーションからターゲットの Creative Cloud アプリケーションにアセットをドラッグする機能。 デスクトップアプリケーションでは、アセットを自動的にチェックアウトし、ローカルファイルシステムにダウンロードします。
+* コレクションの一部であるアセットを更新すると、一時キャッシュフォルダーとデスクトップアプリケーション UI でアセットが自動的に更新されます。
+* アプリケーションをより直感的にするために、UI 上の様々なオプションの様々なラベルが更新されます。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -53,9 +53,9 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
 | macOS（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
-| macOSAppleシリコン（M1）（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
-| Windows 64 ビット （v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
-| Windows 64 ビット Enterprise （v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi) |
+| macOS Apple シリコン（M1）（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
+| Windows 64 ビット版（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
+| Windows 64 ビット版 Enterprise（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.0.msi) |
 | macOS（v2.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
 | macOS Apple シリコン（M1）（v2.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
 | Windows 64 ビット版（v2.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |

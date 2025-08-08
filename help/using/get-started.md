@@ -1,16 +1,16 @@
 ---
-title: 基本を学ぶ  [!DNL Experience Manager]  デスクトップアプリ
-description: デスクトップアプリが  [!DNL Experience Manager]  合理化されたワークフローと生産性機能を使用してコンテンツの作成と公開を強化する方法について説明します。
+title: ' [!DNL Experience Manager]  デスクトップアプリケーションを今すぐ始める'
+description: ' [!DNL Experience Manager]  デスクトップアプリケーションが、スムーズなワークフローと生産性向上機能によって、コンテンツの作成と公開をどのように強化する方法について説明します。'
 feature: Desktop App,Asset Management
 source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションの基本を学ぶ {#getting-started-desktop-app}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーション使用の基本を学ぶ {#getting-started-desktop-app}
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して、ローカルデスクトップ上の [!DNL Adobe Experience Manager] DAM リポジトリに保存されたデジタルアセットにアクセスします。その後、これらのアセットを任意のデスクトップアプリケーションで使用できます。デスクトップアプリケーションでアセットをローカルに開いて編集できます。変更を加えたら、バージョン管理を使用して [!DNL Experience Manager] にアップロードし直し、他のユーザーと更新を共有します。また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
 
@@ -20,13 +20,13 @@ ht-degree: 92%
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
-![ デスクトップアプリケーションを使用して実行できるワークフロー [!DNL Experience Manager] タスク ](assets/aem_desktop_app_usecases_v2.png)
+![[!DNL Experience Manager]デスクトップアプリケーション](assets/aem_desktop_app_usecases_v2.png)を使用して実行できるワークフローおよびタスク
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
 
 アプリケーションの使用を開始する前に、[アプリケーションの仕組み](release-notes.md#how-app-works)を理解しておきましょう。また、次の用語についても把握しておいてください。
 
-* **[!UICONTROL Desktop Actions]**：ブラウザーで Assets web インターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてネイティブデスクトップアプリケーションで編集用に開いたりできます。これらのアクションは Web インターフェイスから使用でき、デスクトップアプリケーション機能を使用します。
+* **[!UICONTROL Desktop Actions]**：ブラウザーで Assets web インターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてネイティブデスクトップアプリケーションで編集用に開いたりできます。これらのアクションは web インターフェイスから実行でき、デスクトップアプリケーションの機能を使用します。
 
 * ファイルのステータスが「**[!UICONTROL Cloud Only]**」：アセットはローカルマシンにはダウンロードされず、[!DNL Experience Manager] サーバー上でのみ使用可能です。
 
@@ -67,7 +67,7 @@ ht-degree: 92%
 
    ![「アセットのデスクトップアクションを表示」をオンにしてデスクトップアクションを有効化](assets/enable_desktop_actions1.png)
 
-## [!DNL Assets] Web インターフェイスからの開始 {#adv-workflow-start-from-aem-ui}
+## [!DNL Assets] web インターフェイスからの開始 {#adv-workflow-start-from-aem-ui}
 
 必要に応じて、Assets Web インターフェイスからワークフローを開始します。デスクトップアプリケーションは [!DNL Experience Manager] と統合されており、デスクトップアクションを使用して操作が要求された場合、その処理を引き継ぎます。
 
@@ -98,14 +98,14 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 ## 次の手順 {#next-steps}
 
-* [ ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
-* 右側のサイドバーにある [!UICONTROL Edit this page] ![ ページを編集 ](assets/do-not-localize/edit-page.png) または [!UICONTROL Log an issue]GitHub イシュー ![ 作成 ](assets/do-not-localize/github-issue.png) を使用してドキュメントに関するフィードバックを提供する
+* 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
 * [カスタマーケア](https://experienceleague.adobe.com/ja?support-solution=General#support)に問い合わせる
 
 >[!MORELIKETHIS]
 >
->* [ ユーザーインターフェイスについて ](/help/using/user-interface.md)
->* [ リリースノートと既知の問題 ](/help/using/release-notes.md)
->* [ デスクトップアプリケーションのインストールまたはアップグレード ](/help/using/install-upgrade.md)
+>* [ユーザーインターフェイスについて](/help/using/user-interface.md)
+>* [リリースノートと既知の問題](/help/using/release-notes.md)
+>* [デスクトップアプリケーションのインストールとアップグレード](/help/using/install-upgrade.md)

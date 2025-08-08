@@ -5,7 +5,7 @@ mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4060'
 ht-degree: 100%
 
