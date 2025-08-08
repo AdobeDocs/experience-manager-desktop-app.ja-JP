@@ -11,7 +11,7 @@ role: User, Admin
 source-git-commit: cde31207ddb0da1057db15f3fcbeec4dd3d0cd8c
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 70%
 + [概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [インストールまたはアップグレード](install-upgrade.md)
-+ [AEM デスクトップアプリケーションの基本を学ぶ](get-started.md)
++ [AEM デスクトップアプリケーション使用の基本を学ぶ](get-started.md)
 + [ユーザーインターフェイス](user-interface.md)
 + [検索](search.md)
 + [デスクトップアプリケーションの使用](using-desktop-app.md)
-+ [Assets管理](assets-management-tasks.md)
++ [アセット管理](assets-management-tasks.md)
 + [アセットのダウンロード](download-assets.md)
 + [アセットのアップロード](upload-assets.md)
-+ [複数アセットの操作](working-with-multiple-assets.md)
++ [複数のアセットの操作](working-with-multiple-assets.md)
 + [トラブルシューティング](troubleshoot.md)
 + 以前のバージョンのヘルプ {#archive}
    + [v1 のリリースノート](release-notes-of-v1.md)
