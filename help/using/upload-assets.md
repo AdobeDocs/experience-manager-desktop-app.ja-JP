@@ -2,15 +2,17 @@
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションを使用したアセットのアップロード'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用したアセットのアップロード'
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
+source-git-commit: db592420ded4d2f7288982a1ea17618484c82537
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 97%
 
 ---
 
-
 # アセットのアップロード {#upload-assets}
+
+アセットを追加する権限を持つAEM デスクトップアプリユーザーは、アセット（画像、ドキュメント、ビデオ、その他のメディアなど）を追加できます。
 
 ## アセットの編集と [!DNL Experience Manager] への更新済みアセットのアップロード {#edit-assets-upload-updated-assets}
 
@@ -72,7 +74,7 @@ ht-degree: 100%
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [ビデオを視聴して Adobe Experience Manager デスクトップアプリケーションの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
