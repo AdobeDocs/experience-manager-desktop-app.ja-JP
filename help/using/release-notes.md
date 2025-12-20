@@ -4,67 +4,32 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
-workflow-type: ht
-source-wordcount: '2502'
-ht-degree: 100%
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+workflow-type: tm+mt
+source-wordcount: '2662'
+ht-degree: 88%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 3.0.0 のリリース情報は以下の通りです。リリース日は 2025年7月31日（PT）です。
+デスクトップアプリバージョン 3.0.1 のリリース日は 2025 年 12 月 18 日（PT）です。  このリリースには、次の機能強化が含まれています。
 
-このリリースでは、コレクション、アップロード、チェックイン／チェックアウト、メタデータ管理、全体的なユーザビリティに対して複数の機能強化が行われています。これらのアップデートにより、効率が向上し、アセットの処理が効率化され、AEM デスクトップアプリケーションでより直感的でリアルタイムなエクスペリエンスが提供されます。
+**よりスムーズで信頼性の高いワークフロー**
 
-![デスクトップアプリケーションユーザーインターフェイス](assets/dekktop-app-user-interface.png)
+* AEM デスクトップアプリケーションとAEM オーサーの間の同期の問題を修正し、フォルダーの名前の一貫性を確保しました。
+* アクティブな転送操作中に完全なアプリケーション機能を許可することで、中断のないワークフローを有効にしました。
+* フォルダープロパティページの信頼性が向上し、フォルダーのメタデータと設定への一貫したアクセスが可能になりました。
 
-**コレクション**
+**より迅速でレスポンシブなユーザーエクスペリエンス**
 
-* コレクションを表示、ダウンロードおよび参照できるようになりました。
+* ブロック I/O を非同期処理に置き換えることで UI の応答性が向上し、高負荷の操作時によりスムーズなエクスペリエンスが提供されます。
+* アップロードフローとダウンロードフローにページネーションを導入し、大きなデータセットを効率的に処理できるようにすることで、大きなファイル転送を強化しました。
 
-* コレクション内で使用可能なフォルダーをダウンロードするためのサポートが追加されました。
+**安定性・信頼性の向上**
 
-* 自動同期機能により、コレクション内のダウンロードされたアセットを、ローカルファイルシステムを使用する AEM アセット管理と定期的に同期できるようになりました。
-
-* コレクションの一部であるアセットを更新すると、一時キャッシュフォルダーとデスクトップアプリケーション UI でアセットが自動的に更新されます。
-
-**アップロード**
-
-* 新しく作成したアセットをローカルマシンから AEM にアップロードし、中央リポジトリが格納されたら、デスクトップアプリで表示できます。
-
-* デスクトップアプリケーションでは、ローカルファイルシステムに既にダウンロードされているフォルダーの下に作成された新しいファイルを自動的に識別し、AEM にアップロードするようになりました。ローカルファイルシステム上の新しいファイルを識別するには、デスクトップアプリケーションを開いたままにしておく必要があります。
-
-**チェックインとチェックアウト**
-
-* チェックインおよびチェックアウト機能を使用すると、ファイルを編集用にロック（チェックアウト）したり、他のユーザーが使用できるようにしながら変更を保存（チェックイン）したりすることで、ファイルへのアクセスを管理できます。
-
-* デスクトップアプリケーションからターゲットの Creative Cloud アプリケーションにアセットをドラッグする機能。 デスクトップアプリケーションでは、アセットを自動的にチェックアウトし、ローカルファイルシステムにダウンロードします。
-
-**メタデータ**
-
-* 新しいフォルダーを作成する際に、メタデータを割り当てることができます。
-
-* Experience Manager デスクトップアプリケーションでは、メタデータを保持しながらアセットまたはフォルダーを新しい場所に移動でき、ファイルシステムの整理と効率化に役立ちます。
-
-* AEM デスクトップアプリケーションでは、フォルダーのサイムネイル、サイズ、パス、作成日、タグ、メタデータなどのフォルダーのプロパティを表示できるようになりました。
-
-**ユーザビリティの向上**
-
-
-* 自動更新機能により、コンテンツがリアルタイムで自動的に更新されるので、ページを手動で再度読み込んだり、更新されたアセットのリストを取得したりせずに、常に最新情報を確認できます。
-
-* ピン留めまたはピン留め解除のフォルダー機能を使用すると、重要なフォルダーをピン留めすることでそのフォルダーに簡単にアクセスでき、不要になったらピン留めを解除することでビューを整理できます。
-
-* タイトル名の変更機能を使用すると、アセットのタイトルを簡単に更新または変更でき、コンテンツの変化に合わせて名前を正確に保ち、整理するのに役立ちます。
-
-* 「ファイルを複製」操作を使用してローカルおよびクラウドの場所をまたいでファイルを複製することで、元のファイルを保持し、類似したファイルに変更を加えることができます。
-
-* 書き出しオプションを使用すると、デスクトップアプリケーションから選択したファイルとフォルダーをフラットな構造で特定のターゲットの場所にダウンロードできるようになりました。
-
-* カード表示、グリッド表示、ツリー表示でアセットにアクセスして、クリーンで整理された、視覚的に魅力的なアセットのレイアウトを実現できるようになりました。
-
-* アプリケーションをより直感的にするために、UI 上の様々なオプションの様々なラベルが更新されます。
+* デスクトップアプリケーションのインタラクションによってトリガーされたオーサーサーバーの再起動を解決し、システムの安定性を大幅に向上しました。
+* サイズの大きいフォルダー（何千ものファイル）のダウンロードまたはアップロード中に、対処されたアプリケーションがクラッシュする。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -82,6 +47,10 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS（v3.0.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOSAppleシリコン（M1）（v3.0.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows 64 ビット （v3.0.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows 64 ビット Enterprise （v3.0.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple シリコン（M1）（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows 64 ビット版（v3.0.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ## 新機能、機能強化、バグ修正 {#what-is-new}
 
-詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
+詳しくは、[v3.0.1 の新機能 ](introduction.md#whats-new-v2) を参照してください。
 
-**アプリ v2.3.1 のアップデート**
+### アプリケーション v3.0.0 のアップデート {#app-version-3.0.0}
+
+このリリースでは、コレクション、アップロード、チェックイン/チェックアウト、メタデータ管理、全体的なユーザビリティに対して複数の機能強化が行われています。 これらのアップデートにより、効率が向上し、アセットの処理が効率化され、AEM デスクトップアプリケーションでより直感的でリアルタイムなエクスペリエンスが提供されます。
+
+![デスクトップアプリケーションユーザーインターフェイス](assets/dekktop-app-user-interface.png)
+
+**コレクション**
+
+* コレクションを表示、ダウンロードおよび参照できるようになりました。
+
+* コレクション内で使用可能なフォルダーをダウンロードするためのサポートが追加されました。
+
+* 自動同期機能により、コレクション内のダウンロードされたアセットを、ローカルファイルシステムを使用する AEM アセット管理と定期的に同期できるようになりました。
+
+* コレクションの一部であるアセットを更新すると、一時キャッシュフォルダーとデスクトップアプリケーション UI でアセットが自動的に更新されます。
+
+**アップロード**
+
+* 新しく作成したアセットをローカルマシンから AEM にアップロードし、中央リポジトリが格納されたら、デスクトップアプリで表示できます。
+
+* デスクトップアプリケーションでは、ローカルファイルシステムに既にダウンロードされているフォルダーの下に作成された新しいファイルを自動的に識別し、AEM にアップロードするようになりました。ローカルファイルシステム上の新しいファイルを識別するには、デスクトップアプリケーションを開いたままにしておく必要があります。
+
+**チェックインとチェックアウト**
+
+* チェックインおよびチェックアウト機能を使用すると、ファイルを編集用にロック（チェックアウト）したり、他のユーザーが使用できるようにしながら変更を保存（チェックイン）したりすることで、ファイルへのアクセスを管理できます。
+
+* デスクトップアプリケーションからターゲットの Creative Cloud アプリケーションにアセットをドラッグする機能。 デスクトップアプリケーションでは、アセットを自動的にチェックアウトし、ローカルファイルシステムにダウンロードします。
+
+**メタデータ**
+
+* 新しいフォルダーを作成する際に、メタデータを割り当てることができます。
+
+* Experience Manager デスクトップアプリケーションでは、メタデータを保持しながらアセットまたはフォルダーを新しい場所に移動でき、ファイルシステムの整理と効率化に役立ちます。
+
+* AEM デスクトップアプリケーションでは、フォルダーのサイムネイル、サイズ、パス、作成日、タグ、メタデータなどのフォルダーのプロパティを表示できるようになりました。
+
+**ユーザビリティの向上**
+
+* 自動更新機能により、コンテンツがリアルタイムで自動的に更新されるので、ページを手動で再度読み込んだり、更新されたアセットのリストを取得したりせずに、常に最新情報を確認できます。
+
+* ピン留めまたはピン留め解除のフォルダー機能を使用すると、重要なフォルダーをピン留めすることでそのフォルダーに簡単にアクセスでき、不要になったらピン留めを解除することでビューを整理できます。
+
+* タイトル名の変更機能を使用すると、アセットのタイトルを簡単に更新または変更でき、コンテンツの変化に合わせて名前を正確に保ち、整理するのに役立ちます。
+
+* 「ファイルを複製」操作を使用してローカルおよびクラウドの場所をまたいでファイルを複製することで、元のファイルを保持し、類似したファイルに変更を加えることができます。
+
+* 書き出しオプションを使用すると、デスクトップアプリケーションから選択したファイルとフォルダーをフラットな構造で特定のターゲットの場所にダウンロードできるようになりました。
+
+* カード表示、グリッド表示、ツリー表示でアセットにアクセスして、クリーンで整理された、視覚的に魅力的なアセットのレイアウトを実現できるようになりました。
+
+* アプリケーションをより直感的にするために、UI 上の様々なオプションの様々なラベルが更新されます。
+
+### アプリケーション v2.3.1 のアップデート {#app-version-2.3.1}
 
 * 新しい Enterprise Windows インストーラーは Program Files の下にアプリケーションをインストールします。
 * AEM および SSO ログイン時の&#x200B;**基本認証**&#x200B;のサポート。
 * アップロード操作中に許可される設定可能なアセット数
 
-**アプリケーション v2.3.0 のアップデート**
+### AEM デスクトップアプリケーション v2.3.0 の更新点 {#app-version-2.3.0}
 
 * IMS ログインのサポートを追加しました。 IMS 統合により、デスクトップアプリはアクセストークンの更新を自動的に実行できるので、ユーザーは最大 14 日間ログイン状態を維持できます。
 
 * 企業プロキシと web フィルタリングのサポートを改善しました。
 
-**アプリケーション v2.2.2 のアップデート**
+### AEM デスクトップアプリケーション v2.2.2 の更新点 {#app-version-2.2.2}
 
 * （Windows のみ）デスクトップアプリケーションでは、2.2.0 および 2.2.1 リリースバージョンをインストールした後、空白の画面が表示されます。
 
-**アプリケーション v2.2.1 のアップデート**
+### アプリケーション v2.2.1 のアップデート {#app-version-2.2.1}
 
 * **[!UICONTROL Sign In]** をクリックすると、デスクトップアプリケーションでセッションタイムアウトエラーメッセージが表示されます。
 
@@ -164,41 +185,41 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * **[!UICONTROL Edited Locally]** をクリックしてアセットを並べ替えると、デスクトップアプリケーションでエラーメッセージが表示されます。
 
-**アプリケーション v2.2.0 のアップデート**
+### AEM デスクトップアプリケーション v2.2.0 の更新点 {#app-version-2.2.0}
 
 * Apple Silicon（M1）のサポート。
 
 * デスクトップアプリケーションにログオンする際に接続文字列を記憶する機能。
 
-**アプリケーション v2.1.5.0 のアップデート**
+### AEM デスクトップアプリケーション v2.1.5.0 の更新点 {#app-version-2.1.5.0}
 
-* 中国語文字（ASSETS-9237）を含むフォルダー内のファイルをアップロードすると、デスクトップアプリケーションは応答を停止します。
+* 漢字（ASSETS-9237）を含むフォルダー内のファイルをアップロードすると、デスクトップアプリケーションは応答を停止します。
 
 * デスクトップアプリケーションでは、ファイル名のドットがダッシュに置き換えられます（ASSETS-10955）。
 
-**アプリケーション v2.1.4.0 のアップデート**
+### AEM デスクトップアプリケーション v2.1.4.0 の更新点 {#app-version-2.1.4.0}
 
 アプリケーションの新しいバージョンでは、バグ修正が行われています。
 
-**AEM デスクトップアプリケーション v2.1.3.4 の更新点**
+### AEM デスクトップアプリケーション v2.1.3.4 の更新点 {#app-version-2.1.3.4}
 
 新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
 
-**AEM デスクトップアプリケーション v2.1.3.3 の更新点**
+### AEM デスクトップアプリケーション v2.1.3.3 の更新点 {#app-version-2.1.3.3}
 
 新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
 
-**AEM デスクトップアプリケーション v2.1.3.2 の更新点**
+### AEM デスクトップアプリケーション v2.1.3.2 の更新点 {#app-version-2.1.3.2}
 
 このバージョンのアプリケーションではバグ修正がおこなわれました。
 
-**AEM デスクトップアプリケーション v2.1.3.1 の更新点**
+### アプリケーション v2.1.3.1 のアップデート {#app-version-2.1.3.1}
 
 このバージョンで修正されたバグは次のとおりです。
 
 * 大きなアセットの場合でも、アセットのアップロードとダウンロードの速度が向上しました。 このリリースでは、非常に大きなファイルをアップロードする際に、[!DNL desktop app] を使用したアセットのアップロードが失敗することがある問題を修正しました。
 
-**AEM デスクトップアプリケーション v2.1.2.0 の更新点**
+### AEM デスクトップアプリケーション v2.1.2.0 の更新点 {#app-version-2.1.2.0}
 
 * 新しいオプション [!UICONTROL Clear Cookies] がアプリケーションのメインメニューに追加されました。 このオプションは、接続先のサーバーを変更した場合などに発生する可能性のある、ログオンの問題を解決するのに役立ちます。 [接続前に cookie をクリアする](/help/using/troubleshoot.md#cannot-login-cookies-issue)を参照してください。
 
@@ -206,21 +227,21 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
   この動作は、デスクトップアプリケーションのバージョン 1 のデフォルトの動作と似ています。 一方、現在のバージョンでは、このオプションが有効になっていない場合、フォルダー名の空白文字と `% ; # , + ? ^ { } "` の各文字は、フォルダーパスではダッシュに置き換えられます。 また、大文字はフォルダーパスでは小文字に変換されます。 ただし、ファイル名では、`# % { } ? &` の各文字はダッシュに置き換えられますが、空白文字と大文字／小文字の区別はそのまま保持されます。 詳しくは、[環境設定の指定](/help/using/install-upgrade.md#set-preferences)および [Adobe Experience Manager への新しいアセットのアップロードと追加](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。
 
-**AEM デスクトップアプリケーション v2.1.1.0 の更新点**
+### AEM デスクトップアプリケーション v2.1.1.0 の更新点 {#app-version-2.1.1.0}
 
 * 詳細設定により、フォルダーのアップロード時に v1.10 アプリケーションの動作をエミュレートできます。 v1.10 では、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードがリポジトリ内に作成されます。 バージョン 2.1 では、デフォルトの動作は変更されていません。フォルダー名に含まれる複数のスペースはリポジトリノード名ではハイフンに置き換えられ、ノード名は小文字に変換されます。 [デスクトップアプリケーションの環境設定](/help/using/install-upgrade.md#set-preferences)を参照してください。
 
-**AEM デスクトップアプリケーション v2.1.0.0 の更新点**
+### AEM デスクトップアプリケーション v2.1.0.0 の更新点 {#app-version-2.1.0.0}
 
 * アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。 このプロセスは、デスクトップアプリケーションで使用可能なアップロードオプションに加えて機能します。 [アセットの一括アップロード](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。<!-- CQ-4309527 -->
 
-**AEM デスクトップアプリケーション v2.0.3 の更新点**
+### AEM デスクトップアプリケーション v2.0.3 の更新点 {#app-version-2.0.3}
 
 このバージョンで修正されたバグは次のとおりです。
 
 * Windows 版アプリのユーザーが [!DNL Adobe Experience Manager] 6.5.5.0 の DAM リポジトリにアクセスしようとする際のログイン問題を修正しました。
 
-**AEM デスクトップアプリケーション v2.0.2 の更新点**
+### アプリケーション v2.0.2 のアップデート {#app-version-2.0.2}
 
 バグ修正と更新点は次のとおりです。
 
@@ -234,7 +255,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * （Windows の場合）一部の Windows コンピューターでデスクトップアプリケーションインターフェイスがまれに使用できない問題を修正しました。 インターフェイス要素のクリック領域が横に「シフト」し、アプリケーションインターフェイスがゆがんで表示されるので、ユーザーはクリックできませんでした。 <!-- CQ-4280785 -->
 
-**AEM デスクトップアプリケーション v2.0.1 の更新点**
+### アプリケーション v2.0.1 のアップデート {#app-version-2.0.1}
 
 バグ修正と更新点は次のとおりです。
 
