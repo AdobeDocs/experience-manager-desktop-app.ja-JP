@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 88%
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-デスクトップアプリバージョン 3.0.1 のリリース日は 2025 年 12 月 18 日（PT）です。  このリリースには、次の機能強化が含まれています。
+デスクトップアプリバージョン 3.0.1 のリリース日は 2025 年 12 月 20 日（PT）です。  このリリースには、次の機能強化が含まれています。
 
 **よりスムーズで信頼性の高いワークフロー**
 
@@ -107,7 +107,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ## 新機能、機能強化、バグ修正 {#what-is-new}
 
-詳しくは、[v3.0.1 の新機能 &#x200B;](introduction.md#whats-new-v2) を参照してください。
+詳しくは、[v3.0.1 の新機能 ](introduction.md#whats-new-v2) を参照してください。
 
 ### アプリケーション v3.0.0 のアップデート {#app-version-3.0.0}
 
@@ -265,7 +265,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ## インストール手順 {#installation-instructions-v2}
 
-アプリケーションのインストールと設定の方法については、[&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
+アプリケーションのインストールと設定の方法については、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
 
 以前の [!DNL Experience Manager] デスクトップアプリケーションからアップグレードする場合は、[以前のバージョンからのアップグレード](install-upgrade.md#upgrade-from-previous-version)にリストされている移行のベストプラクティスに従う必要があります。
 
@@ -323,6 +323,6 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 >
 >* [[!DNL Experience Manager]  as a  [!DNL Cloud Service]  ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service)
 >* [[!DNL Experience Manager]  as a  [!DNL Cloud Service] [!DNL Assets] ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview)
->* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using-desktop-app.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using-desktop-app.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
