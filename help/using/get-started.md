@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ログアウト後または初めてアプリケーションを開くときに、[!DNL Experience Manager] サーバーの URL を `https://[aem-server-url]:[port]/` の形式で指定します。次に、「[!UICONTROL Connect]」オプションを選択します。アプリケーションをサーバーに接続するための認証情報を入力します。
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/34018?captions=jpn&quality=12&learn=on){transcript=true}
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
