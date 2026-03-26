@@ -1,24 +1,10 @@
 ---
-source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: ac9d23600d6af48ab188cac413979e4246fb3a01
+workflow-type: tm+mt
+source-wordcount: '7'
+ht-degree: 0%
 
 ---
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションについて
+# アーカイブ
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションは、[!DNL Experience Manager] DAM リポジトリをデスクトップに接続し、リソースへのアクセスを高速化し、ワークフローを合理化します。作業量が減ったことで、デスクトップワークフローでデジタルアセットを操作するユーザーの効率が向上します。デスクトップアプリケーションを使用すると、[!DNL Experience Manager Assets] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。任意のデスクトップアプリケーションでアセットを開いて編集できます。ローカルの編集は、[!DNL Experience Manager] DAM リポジトリで使用できます。任意のソースからリポジトリーに追加された新しいアセットは、デスクトップでも使用できます。
-
-このような統合により、組織内の様々な役割のユーザーがアセットを [!DNL Experience Manager Assets] で一元管理できます。マーケターやビジネスユーザーは、ブランディングやライセンスなどの様々な標準に確実に準拠できます。クリエイティブユーザーは、デスクトップ上の [!DNL Creative Cloud] や他のネイティブアプリケーションのアセットにアクセスすることもできます。
-
-## ドキュメントへの投稿
-
-このプロジェクトでは、[アドビオープンソース行動規範 ](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/about/policies/code-of-conduct)を採用しています。詳しくは、「[投稿](contributing.md)」を参照してください。
-
-**小規模の変更**：記事の右側の余白にある「編集」をクリックして、小規模の修正や説明を加えて送信する開始を選択します。または、変更を説明するイシューをこのリポジトリーに作成します。このような小規模の投稿は、アドビ利用条件の適用を受けます。
-
-**大規模の変更**：記事の「編集」をクリックするまたは投稿し、プルリクエストを作成するまたはイシューを作成します。どちらの場合も、ドキュメントチームのメンバーとやり取りして、詳細な情報を収集することを計画してください。Adobe CLA に 1 回署名すると、任意の Adobe ドキュメントに何回でも投稿できます。[投稿方法](contributing.md)の記事を参照してください。
-
-**アドビ従業員の場合**：アドビ従業員は、会社の Git を使用して投稿します。[contributing.md](contributing.md) を参照してください。メジャーアップデートを投稿するには、問題を開きます。ドキュメントチームのメンバーが問題に関して連絡してくることを予定しておきます。
-
-アドビが投稿時に期待する行動の標準については、[行動規範](code-of-conduct.md)を参照してください。
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/experience-manager-desktop-app.en>に移行されました
