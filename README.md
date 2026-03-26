@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # アーカイブ
 
-このリポジトリは<https://github.com/Adobe-Enterprise-Docs/experience-manager-desktop-app.en>に移行されました
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/experience-manager-desktop-app.ja-JP>に移行されました
