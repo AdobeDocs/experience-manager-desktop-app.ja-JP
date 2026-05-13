@@ -3,9 +3,18 @@ title: '[!DNL Experience Manager] デスクトップアプリでのアセット�
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションでアセットを参照、検索、プレビューします。'
 feature: Desktop App
 exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 98%
 
 ---
@@ -93,7 +102,7 @@ ht-degree: 98%
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager デスクトップアプリの使用を開始するビデオを見る](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 

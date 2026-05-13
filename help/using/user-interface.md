@@ -2,17 +2,26 @@
 title: ユーザーインターフェイス  [!DNL Experience Manager]  デスクトップアプリケーション
 description: ユーザーインターフェイス  [!DNL Adobe Experience Manager]  デスクトップアプリケーション。
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
+TQID: https://experienceleague.adobe.com/AEbEbJbBQI6-HuI7aAf-348pf-qjK1fZfoapY7PYveo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+workflow-type: tm+mt
+source-wordcount: 499
+ht-degree: 97%
 
 ---
 
-
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションのユーザーインターフェイス {#user-interface-desktop-app}
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションは、直観的で使いやすいユーザーインターフェイスを提供しています。すっきりしたインターフェイスのおかげで、アセットや関連情報を見つけやすく覚えやすくなります。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションは、直観的で使いやすいユーザーインターフェイスを提供しています。 すっきりしたインターフェイスのおかげで、アセットや関連情報を見つけやすく覚えやすくなります。
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションにログインすると、次のインターフェイスが表示されます。
 
@@ -89,8 +98,8 @@ ht-degree: 100%
         <td> 次のような表示オプションがあります。 
             <ul>
                 <li><b>すべてのアセットを表示：</b>すべてのアセットを表示できます。 </li>
-                <li><b>コレクションを表示：</b>ネイティブの AEM アプリケーションで作成されたすべてのコレクションを表示できます。その他のコレクションを参照してください。 </li>
-                <li><b>ローカルで編集：</b>ローカルで変更されたすべてのアセットを表示できます。このビューでは、複数のアセットを追加およびアップロードできます。</li>
+                <li><b>コレクションを表示：</b>ネイティブの AEM アプリケーションで作成されたすべてのコレクションを表示できます。 その他のコレクションを参照してください。 </li>
+                <li><b>ローカルで編集：</b>ローカルで変更されたすべてのアセットを表示できます。 このビューでは、複数のアセットを追加およびアップロードできます。</li>
                 <li><b>アセットを転送：</b>ネイティブアプリからローカルに、またはその逆に転送されたすべてのアセットを表示できます。 </li>
                 <li><b>ピン留めされた項目：</b>ピン留めされたすべての項目を表示できます。</li>
             </ul>
@@ -101,7 +110,7 @@ ht-degree: 100%
         <td> ファイルまたはフォルダー（ローカルまたは web）のインジケーター。 </td>
     </tr>
     <tr>
-        <td> N </td>
+        <td> × </td>
         <td> その他のオプション： 
             <ul>
                 <li><b>ダウンロード：</b>選択したアセットまたはフォルダーをダウンロードできます。 </li>
@@ -120,12 +129,12 @@ ht-degree: 100%
 
 ## [!DNL Adobe Experience Manager] デスクトップアプリケーションのフォルダー構造の表示 {#folder-structure-desktop-app}
 
-フォルダーに移動し、フォルダー名の横にある![その他のアクション](assets/do-not-localize/more2_da2.png)アイコンをクリックします。**[!UICONTROL Reveal Folder]** を選択すると、システムのエクスプローラーでフォルダーをすぐに開き、そのコンテンツにすばやく直接アクセスでき、ナビゲーションや管理が簡単になります。
+フォルダーに移動し、フォルダー名の横にある![その他のアクション](assets/do-not-localize/more2_da2.png)アイコンをクリックします。 **[!UICONTROL Reveal Folder]** を選択すると、システムのエクスプローラーでフォルダーをすぐに開き、そのコンテンツにすばやく直接アクセスでき、ナビゲーションや管理が簡単になります。
 
 
 ## 次の手順 {#next-steps}
 
-* [ビデオを視聴してAdobe Experience Manager デスクトップアプリの概要を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager デスクトップアプリの使用を開始するビデオを見る](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 右側のサイドバーにある「[!UICONTROL Edit this page]![ページを編集](assets/do-not-localize/edit-page.png)」または「[!UICONTROL Log an issue]![GitHub イシューを作成](assets/do-not-localize/github-issue.png)」を使用してドキュメントに関するフィードバックを提供する
 
@@ -136,4 +145,3 @@ ht-degree: 100%
 >* [デスクトップアプリケーションでのアセットの検索](/help/using/assets-management-tasks.md)
 >* [アセットのダウンロード](/help/using/download-assets.md)
 >* [アセットのアップロード](/help/using/upload-assets.md)
-
