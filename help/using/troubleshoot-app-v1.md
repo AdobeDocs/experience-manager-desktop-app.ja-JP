@@ -20,8 +20,8 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: 3358
-ht-degree: 100%
+source-wordcount: 3356
+ht-degree: 99%
 
 ---
 
@@ -233,8 +233,8 @@ AEM デスクトップアプリケーションは、特定のファイルに対�
 
 AEM デスクトップアプリケーションのキャッシュのクリアは、最初におこなうべきトラブルシューティング作業です。これにより、AEM デスクトップアプリケーションで発生するいくつかの問題を解決できます。
 
-次の場所にあるアプリケーションのキャッシュディレクトリを削除して、キャッシュをクリアできます。
-Windows の場合、`%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+次の場所にあるアプリケーションのキャッシュディレクトリを削除することで、キャッシュをクリアできます。
+Windowsでは、`%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
 Mac の場合、`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
