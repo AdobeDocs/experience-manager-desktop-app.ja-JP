@@ -327,7 +327,7 @@ Assets Web インターフェイスで以下のアクションを実行しよう
 
 * [!UICONTROL Open]、[!UICONTROL Edit]、[!UICONTROL Reveal]が実行可能な [!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
-* [!UICONTROL Check-out] か [!UICONTROL check-in] のどちらかにする必要があります。
+* [!UICONTROL Check-out] または [!UICONTROL check-in]
 
 例えば、アプリケーションでチェックアウトされたアセットに対して Web インターフェイス上で使用できるアクションは、[!UICONTROL Open]、[!UICONTROL Reveal]、[!UICONTROL Check in]です。
 
