@@ -3,19 +3,11 @@ title: デスクトップアプリケーション v1.10 のインストールと
 description: ' [!DNL Experience Manager] デスクトップアプリバージョン 1.10 [!DNL Assets]  をインストールして、 サーバーと連携しアセットをデスクトップのドライブとしてマウントするように設定します。'
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -43,7 +35,7 @@ ht-degree: 97%
 
 ## デスクトップアプリケーションのインストールと [!DNL Experience Manager] サーバーへの接続 {#install-and-connect-aem-desktop-app-to-aem-server}
 
-詳しくは、[&#x200B; [!DNL Experience Manager] デスクトップアプリケーションのインストールと [!DNL Experience Manager] サーバーへの接続](use-app-v1.md#installandconnect)を参照してください。
+詳しくは、[ [!DNL Experience Manager] デスクトップアプリケーションのインストールと [!DNL Experience Manager] サーバーへの接続](use-app-v1.md#installandconnect)を参照してください。
 
 >[!NOTE]
 >
@@ -109,7 +101,7 @@ macOS X では、同様のディレクトリが `~/Library/Group Containers/grou
 
 ### キャッシュを管理するアプリケーション内のオプション {#in-app-option-to-manage-cache}
 
-ローカルキャッシュに使用するディスク容量を管理できます。 Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。 要件に応じてデフォルト設定を変更することができます。 キャッシュをクリアして、すべてのアセットを取得し直すこともできます。 目的のオプションを設定するには、アプリケーションのアイコンをクリックし、**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;をクリックします。 **&#x200B;**
+ローカルキャッシュに使用するディスク容量を管理できます。 Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。 要件に応じてデフォルト設定を変更することができます。 キャッシュをクリアして、すべてのアセットを取得し直すこともできます。 目的のオプションを設定するには、アプリケーションのアイコンをクリックし、**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;をクリックします。 ****
 
 >[!NOTE]
 >
@@ -141,6 +133,6 @@ macOS X では、同様のディレクトリが `~/Library/Group Containers/grou
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーション](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)の概要を視聴してください（5 分 43 秒）。
->* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
->* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーション](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)の概要を視聴してください（5 分 43 秒）。
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
