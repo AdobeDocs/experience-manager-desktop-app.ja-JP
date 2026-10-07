@@ -1,31 +1,42 @@
 ---
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
-description: ' [!DNL Adobe Experience Manager]  デスクトップアプリのリリースの詳細、機能強化、新機能、互換性、およびダウンロードリンク。'
+description: '[!DNL Adobe Experience Manager] デスクトップアプリのリリースの詳細、機能強化、新機能、互換性、およびダウンロードリンク。'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Data management
+source-git-commit: d5e89df1c3930b5206efedadef064a2bf0838564
 workflow-type: tm+mt
-source-wordcount: 5259
-ht-degree: 84%
-
+source-wordcount: '5588'
+ht-degree: 80%
 ---
-
 # [!DNL Adobe Experience Manager] デスクトップアプリのリリースノート {#release-notes-v2}
 
-デスクトップアプリバージョン 3.0.2のこのリリースには、アプリケーションの全体的な安定性とパフォーマンスを向上させるバグ修正が含まれています。
+このデスクトップアプリバージョン 3.0.3のリリースには、次の機能強化とバグ修正が含まれています。
+
+**安定性とパフォーマンスの向上**
+* [!DNL Experience Manager]への過剰なリクエストを防ぐため、リクエスト処理が改善されました。
+* 非常に大きなアセットをダウンロードする際の信頼性が向上しました。
+* 大きなファイルを操作する際に、macOSでデスクトップアプリがクラッシュしたり、応答しなくなる可能性がある問題を修正しました。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -43,6 +54,10 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS （v3.0.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| macOS Apple Silicon （M1） （v3.0.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows 64 ビット版（v3.0.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows 64 ビット Enterprise （v3.0.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS （v3.0.2） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
 | macOS Apple Silicon （M1） （v3.0.2） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows 64 ビット版（v3.0.2） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
@@ -62,7 +77,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 | macOS（v2.3.1） | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&reserved=0) | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&reserved=0) |
 | macOS Apple Silicon（M1）（v2.3.1） | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&reserved=0) | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&reserved=0) |
 | Windows 64 ビット版（v2.3.1） | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&reserved=0) | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&reserved=0) |
-| Windows 64 ビット版 Enterprise（v2.3.1） | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081976350%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=v9C0sLDSkuL%2FMIyae2WkbitJPVgSlAw2BqcaH5Im0uw%3D&reserved=0) | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081995827%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=2btCh0aIrUBiyeG37K9YorvzTeIJOggbq%2FRauUMn4LY%3D&reserved=0) |
+| Windows 64 ビットエンタープライズ版（v2.3.1） | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081976350%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=v9C0sLDSkuL%2FMIyae2WkbitJPVgSlAw2BqcaH5Im0uw%3D&reserved=0) | [ダウンロードリンク](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.msi&data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081995827%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=2btCh0aIrUBiyeG37K9YorvzTeIJOggbq%2FRauUMn4LY%3D&reserved=0) |
 | macOS（v2.3.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) |
 | macOS Apple Silicon（M1）（v2.3.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) |
 | Windows 64 ビット（v2.3.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) |
@@ -107,7 +122,9 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ## 新機能、機能強化、バグ修正 {#what-is-new}
 
-詳細については、[v3.0.2](introduction.md#whats-new-v2)の新機能を参照してください。
+### アプリ v3.0.2のアップデート {#app-version-3.0.2}
+
+デスクトップアプリバージョン 3.0.2のこのリリースには、アプリケーションの全体的な安定性とパフォーマンスを向上させるバグ修正が含まれています。
 
 ### アプリ v3.0.1のアップデート {#app-version-3.0.1}
 
@@ -141,13 +158,13 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * コレクション内で使用可能なフォルダーをダウンロードするためのサポートが追加されました。
 
-* 自動同期機能により、コレクション内のダウンロードされたアセットを、ローカルファイルシステムを使用する AEM アセット管理と定期的に同期できるようになりました。
+* 自動同期機能により、コレクション内でダウンロードされたアセットを、ローカルファイルシステムと AEM アセット管理の間で定期的に同期できるようになりました。
 
 * コレクションの一部であるアセットを更新すると、一時キャッシュフォルダーとデスクトップアプリケーション UI でアセットが自動的に更新されます。
 
 **アップロード**
 
-* 新しく作成したアセットをローカルマシンから AEM にアップロードし、中央リポジトリが格納されたら、デスクトップアプリで表示できます。
+* 新しく作成したアセットをローカルマシンから AEM にアップロードし、中央リポジトリに格納されたアセットをデスクトップアプリで表示できます。
 
 * デスクトップアプリケーションでは、ローカルファイルシステムに既にダウンロードされているフォルダーの下に作成された新しいファイルを自動的に識別し、AEM にアップロードするようになりました。 ローカルファイルシステム上の新しいファイルを識別するには、デスクトップアプリケーションを開いたままにしておく必要があります。
 
@@ -163,7 +180,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * Experience Manager デスクトップアプリケーションでは、メタデータを保持しながらアセットまたはフォルダーを新しい場所に移動でき、ファイルシステムの整理と効率化に役立ちます。
 
-* AEM デスクトップアプリケーションでは、フォルダーのサイムネイル、サイズ、パス、作成日、タグ、メタデータなどのフォルダーのプロパティを表示できるようになりました。
+* AEM デスクトップアプリケーションでは、フォルダーのサムネイル、サイズ、パス、作成日、タグ、メタデータなどのフォルダーのプロパティを表示できるようになりました。
 
 **ユーザビリティの向上**
 
@@ -179,7 +196,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * カード表示、グリッド表示、ツリー表示でアセットにアクセスして、クリーンで整理された、視覚的に魅力的なアセットのレイアウトを実現できるようになりました。
 
-* アプリケーションをより直感的にするために、UI 上の様々なオプションの様々なラベルが更新されます。
+* アプリケーションをより直感的にするために、UI 上の各オプションのラベルが更新されました。
 
 ### アプリ v2.3.1のアップデート {#app-version-2.3.1}
 
@@ -189,7 +206,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ### アプリ v2.3.0のアップデート {#app-version-2.3.0}
 
-* IMS ログインのサポートを追加しました。 IMS 統合により、デスクトップアプリはアクセストークンの更新を自動的に実行できるので、ユーザーは最大 14 日間ログイン状態を維持できます。
+* IMS ログインのサポートを追加しました。 IMS 統合により、デスクトップアプリケーションはアクセストークンの更新を自動的に実行できるため、ユーザーは最大 14 日間ログイン状態を維持できます。
 
 * 企業プロキシと web フィルタリングのサポートを改善しました。
 
@@ -223,11 +240,11 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ### アプリ v2.1.3.4のアップデート {#app-version-2.1.3.4}
 
-新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
+新しいバージョンのアプリケーションでは、バグ修正がおこなわれました。
 
 ### アプリ v2.1.3.3の更新 {#app-version-2.1.3.3}
 
-新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
+新しいバージョンのアプリケーションでは、バグ修正がおこなわれました。
 
 ### アプリ v2.1.3.2のアップデート {#app-version-2.1.3.2}
 
@@ -245,7 +262,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * 選択するとローカルのファイル名とフォルダー名に一致する [!DNL Adobe Experience Manager] 内のノード名を持つフォルダーとファイルをアップロードできる、新しいオプションが追加されました。 このプロセスにより、ローカル名とアップロードされた名前の一貫性が確保されます。
 
-  この動作は、デスクトップアプリケーションのバージョン 1 のデフォルトの動作と似ています。 一方、現在のバージョンでは、このオプションが有効になっていない場合、フォルダー名の空白文字と `% ; # , + ? ^ { } "` の各文字は、フォルダーパスではダッシュに置き換えられます。 また、大文字はフォルダーパスでは小文字に変換されます。 ただし、ファイル名では、`# % { } ? &` の各文字はダッシュに置き換えられますが、空白文字と大文字／小文字の区別はそのまま保持されます。 詳しくは、[環境設定の指定](/help/using/install-upgrade.md#set-preferences)および [Adobe Experience Manager への新しいアセットのアップロードと追加](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。
+  この動作は、デスクトップアプリケーションのバージョン 1 のデフォルトの動作と似ています。 一方、現在のバージョンでは、このオプションが有効になっていない場合、フォルダー名の空白文字と `% ; # , + ? ^ { } "` の各文字は、フォルダーパスではダッシュに置き換えられます。 また、大文字はフォルダーのパスでは小文字に変換されます。 ただし、ファイル名では、`# % { } ? &` の各文字はダッシュに置き換えられますが、空白文字と大文字／小文字の区別はそのまま保持されます。 詳しくは、[環境設定の指定](/help/using/install-upgrade.md#set-preferences)および [Adobe Experience Manager への新しいアセットのアップロードと追加](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。
 
 ### アプリ v2.1.1.0のアップデート {#app-version-2.1.1.0}
 
@@ -253,7 +270,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ### アプリ v2.1.0.0のアップデート {#app-version-2.1.0.0}
 
-* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。 このプロセスは、デスクトップアプリケーションで使用可能なアップロードオプションに加えて機能します。 [アセットの一括アップロード](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。<!-- CQ-4309527 -->
+* ユーザーは、アセットをアップロードする際に、Windows エクスプローラーまたは Mac Finder からアプリケーションのインターフェイス上へファイルやフォルダーを直接ドラッグできるようになりました。 このプロセスは、デスクトップアプリケーションで使用可能なアップロードオプションに加えて機能します。 [アセットの一括アップロード](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)を参照してください。<!-- CQ-4309527 -->
 
 ### アプリ v2.0.3のアップデート {#app-version-2.0.3}
 
@@ -295,13 +312,13 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * デスクトップアプリケーションは、[!DNL Experience Manager] との間でアセットバイナリを完全に転送する必要がある操作（**開く**、**編集**、**変更をアップロード**、**アセットをアップロード**）を完全にコントロールできます。
 
-   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、デスクトップへの「ダウンロード」のいずれかを明示的に実行する必要があります。
+  * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、デスクトップへの「ダウンロード」のいずれかを明示的に実行する必要があります。
 
-   * アセットに対するローカルな変更を [!DNL Experience Manager] にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して [!UICONTROL Upload Changes] を選択する必要があります。
+  * アセットに対するローカルな変更を [!DNL Experience Manager] にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して [!UICONTROL Upload Changes] を選択する必要があります。
 
-   * アプリケーションは、デスクトップと [!DNL Experience Manager] をまたいでアセットを同期させる「同期クライアント」ではありません。
+  * アプリケーションは、デスクトップと [!DNL Experience Manager] をまたいでアセットを同期させる「同期クライアント」ではありません。
 
-   * アプリケーションは、[!DNL Experience Manager]リポジトリーを仮想フォルダー構造としてマッピングするネットワーク共有を提供しません。
+  * アプリケーションは、[!DNL Experience Manager]リポジトリーを仮想フォルダー構造としてマッピングするネットワーク共有を提供しません。
 
 * デスクトップアプリケーションに表示されるアセットのリストは、Assets リポジトリーのステータスに基づいています。 ローカルにダウンロードされた後でローカルファイルまたはキャッシュフォルダー内で名前が変更されたファイルは、デスクトップアプリケーションでは表示または管理されません。
 
@@ -321,9 +338,9 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 * デスクトップアプリケーションのインターフェイスが空白になることがあります。 右クリックし [!UICONTROL Refresh] をクリックして、アプリケーションを再度読み込みます。 更新後、DAM リポジトリーのルートから開始します。 アセットのアップデートまたはステータスは保持されます。 <!-- CQ-4270267 -->
 
-* トラックパッドやマウスホイールを使用せずにフォルダーや検索結果間を移動するのが困難です。 ホイールなしのマウスデバイスでは、スクロールバーは表示されません。 <!-- CQ-4269947 -->
+* トラックパッドやマウスポインターを使用せずにフォルダーや検索結果を操作するのが困難です。 ホイールなしのマウスデバイスでは、スクロールバーは表示されません。 <!-- CQ-4269947 -->
 
-* まれに、アセットの変更をアップロードするときに進行状況バーが正しく表示されないことがあります。
+* まれに、アップロード中のアセットが切り替わる際に進行状況バーが正しく表示されないことがあります。
 
 * フィルターを適用後に解除してローカルに編集されたすべてのアセットを検索すると、開始時点の検索結果やフォルダー表示に戻りません。 DAM リポジトリーのルートフォルダーが表示されます。
 
