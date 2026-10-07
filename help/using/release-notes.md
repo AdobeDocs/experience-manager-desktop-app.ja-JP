@@ -302,7 +302,7 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 
 ## インストール手順 {#installation-instructions-v2}
 
-アプリケーションのインストールと設定の方法については、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
+アプリケーションのインストールと設定の方法については、[&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
 
 以前の [!DNL Experience Manager] デスクトップアプリケーションからアップグレードする場合は、[以前のバージョンからのアップグレード](install-upgrade.md#upgrade-from-previous-version)にリストされている移行のベストプラクティスに従う必要があります。
 
@@ -360,6 +360,6 @@ AEM デスクトップアプリケーションバージョン 2.3.1 以降では
 >
 >* [[!DNL Experience Manager]  as a  [!DNL Cloud Service]  ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service)
 >* [[!DNL Experience Manager]  as a  [!DNL Cloud Service] [!DNL Assets] ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview)
->* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using-desktop-app.md)
+>* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using-desktop-app.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
