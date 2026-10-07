@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ドキュメントを改善するために必要なアイデアは、コントリビューションとして歓迎されます。 ただし、コメント、イシュー、およびプルリクエストは、*寄付*&#x200B;のみを対象としています。 製品の使用方法に関する質問への回答、プロジェクトの導入、技術的な課題の解決を目的としたものではありません。
 
-使用状況や技術的なエラーに関する質問は、[[!DNL Experience Manager]  カスタマーサポートポータル &#x200B;](https://experienceleague.adobe.com/?support-solution=Experience+Manager&lang=ja#home)経由で通常のサポートプロセスを通じて報告するか、[[!DNL Experience Manager]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)で議論する必要があります。
+使用状況や技術的なエラーに関する質問は、[[!DNL Experience Manager]  カスタマーサポートポータル &#x200B;](https://experienceleague.adobe.com/ja?support-solution=Experience+Manager&lang=ja#home)経由で通常のサポートプロセスを通じて報告するか、[[!DNL Experience Manager]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)で議論する必要があります。
 
 ***ドキュメントへの投稿は、Adobe カスタマーケア***&#x200B;の代替となるものではなく、サポート関連の質問に対する回答を求めるそのような投稿は拒否されます。
 
