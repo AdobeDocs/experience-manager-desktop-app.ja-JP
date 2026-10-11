@@ -35,12 +35,12 @@ ht-degree: 99%
 
 [!DNL Experience Manager] デスクトップアプリケーション v1 を使用して行う主なタスクは次のとおりです。
 
-1. [ [!DNL Experience Manager]  サーバーと接続する](#installandconnect)
+1. [&#x200B; [!DNL Experience Manager]  サーバーと接続する](#installandconnect)
 1. [アセットをデスクトップアプリで直接開く](#openondesktop)
 1. [アセットをデスクトップアプリから編集およびチェックアウトする](#workonassets)
 1. [アセットおよびフォルダーを一括アップロードする](#bulkupload)
 
-様々な推奨事項や注意事項については、[デスクトップアプリを使用する際のベストプラクティス](best-practices-for-v1.md)を参照してください。 アプリケーションの使用時に問題が発生した場合は、[ [!DNL Experience Manager]  デスクトップアプリのトラブルシューティング](troubleshoot-app-v1.md)を参照してください。
+様々な推奨事項や注意事項については、[デスクトップアプリを使用する際のベストプラクティス](best-practices-for-v1.md)を参照してください。 アプリケーションの使用時に問題が発生した場合は、[&#x200B; [!DNL Experience Manager]  デスクトップアプリのトラブルシューティング](troubleshoot-app-v1.md)を参照してください。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 1. [アプリをインストールします](#installapp)。
 1. [環境設定](#inapppref)および接続の詳細を設定します。
-1. [ [!DNL Experience Manager]  サーバーに接続](#connect)し、アセットリポジトリーをローカルドライブとしてマウントします。
+1. [&#x200B; [!DNL Experience Manager]  サーバーに接続](#connect)し、アセットリポジトリーをローカルドライブとしてマウントします。
 1. [!DNL Experience Manager] サーバーで[デスクトップアクションを有効](#desktopactions)にします。
 
 [!DNL Experience Manager] デスクトップアプリケーションは HTTPS 接続を使用して [!DNL Experience Manager] サーバーに接続し、アセットを堅牢かつ安全に転送します。
@@ -73,7 +73,7 @@ ht-degree: 99%
 
 Experience Manager デスクトップアプリを使用するには、アプリケーションが Experience Manager サーバーのバージョンをサポートしていることを確認してください。 使用するオペレーティングシステム（Mac または Windows）に適したインストールファイル（バイナリ）をダウンロードして、アプリケーションをインストールします。
 
-ネットワークおよびシステムの環境設定によっては、詳細な設定が必要になることがあります。 詳しくは、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストールと設定](install-configure-app-v1.md)を参照してください。
+ネットワークおよびシステムの環境設定によっては、詳細な設定が必要になることがあります。 詳しくは、[&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションのインストールと設定](install-configure-app-v1.md)を参照してください。
 
 1. [[!DNL Experience Manager]  デスクトップアプリケーション v1.10 のダウンロードページ](/help/using/release-notes-of-v1.md)に移動し、オペレーティングシステムに適したバイナリをダウンロードします。
 1. ダウンロードしたインストールファイルを実行し、画面上の指示に従ってアプリケーションをインストールします。
@@ -265,4 +265,4 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+>* [&#x200B; [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)

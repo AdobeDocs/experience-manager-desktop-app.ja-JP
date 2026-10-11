@@ -98,7 +98,7 @@ ht-degree: 99%
 
 1. フォルダーを参照し、そのフォルダー内で使用可能なアセットの基本情報と、すべてのアセットの小さなサムネールを確認します。
 
-   ![DAM ファイルおよびフォルダーの参照 ](assets/browse_folder_da2.png "DAM ファイルおよびフォルダーの参照")
+   ![DAM ファイルおよびフォルダーの参照 &#x200B;](assets/browse_folder_da2.png "DAM ファイルおよびフォルダーの参照")
 
 1. 個々のアセットの詳細情報と大きいサムネールを表示するには、ファイル名をクリックします。
 
@@ -326,7 +326,7 @@ TBD: Securing the below presentation of the same content in a comment.
 
 ### 転送したアセットのリスト {#list-of-transferred-assets}
 
-特定のセッションで転送されたアセットのリストを表示するには、[ [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem) へのアセットのアップロードを参照してください。
+特定のセッションで転送されたアセットのリストを表示するには、[&#x200B; [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem) へのアセットのアップロードを参照してください。
 
 ## 高度なワークフロー：[!DNL Assets] web インターフェイスからの開始 {#adv-workflow-start-from-aem-ui}
 

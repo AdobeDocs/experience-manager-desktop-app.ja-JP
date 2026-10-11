@@ -135,7 +135,7 @@ AEM デスクトップアプリを使用して、新しいフォルダーを作�
 
 ## 転送したアセットのリスト {#list-of-transferred-assets}
 
-特定のセッションで転送されたアセットのリストを表示するには、[ [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem) へのアセットのアップロードを参照してください。
+特定のセッションで転送されたアセットのリストを表示するには、[&#x200B; [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem) へのアセットのアップロードを参照してください。
 
 ## 高度なワークフロー：同じファイルに対する共同作業と編集上の競合の回避 {#adv-workflow-collaborate-avoid-conflicts}
 
