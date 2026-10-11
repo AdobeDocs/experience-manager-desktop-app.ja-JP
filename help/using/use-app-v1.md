@@ -1,26 +1,32 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.10 の使用。'
+title: '[!DNL Experience Manager] デスクトップアプリバージョン 1.10を使用します。'
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+TQID: 'https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 2358
-ht-degree: 100%
-
+source-wordcount: '2359'
+ht-degree: 99%
 ---
-
 # [!DNL Experience Manager] デスクトップアプリケーション v1.10 の使用 {#use-aem-desktop-app-v1x}
 
 デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。 アセットは Mac Finder や Windows エクスプローラーで容易に表示したり、デスクトップアプリケーションで開いたり、ローカルで変更したりできます。変更内容は [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
@@ -90,7 +96,7 @@ Experience Manager デスクトップアプリを使用するには、アプリ�
 
 ### [!DNL Experience Manager] サーバーへの接続 {#connect}
 
-アプリは、Windows および Mac のプロキシ設定をサポートします。 設定はアプリの起動時に読み込まれます。 プロキシ設定を変更した場合は、変更を適用するためにアプリを再起動します。
+アプリは、Windows と Mac でのプロキシ設定をサポートします。 設定はアプリの起動時に読み込まれます。 プロキシ設定を変更した場合は、変更を適用するためにアプリを再起動します。
 
 >[!NOTE]
 >
@@ -155,9 +161,9 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
 ## アセットのステータスについて {#understand-the-asset-statuses}
 
-| ![Windows のデフォルトアプリアイコン](assets/do-not-localize/win_default.png) | AEM デスクトップアプリケーションはサーバーに接続されており、すべてのアセットが同期されています。 |
+| ![Windows のデフォルトアプリアイコン](assets/do-not-localize/win_default.png) | アプリはサーバーに接続されており、すべてのアセットが同期されています。 |
 | --- |--- |
-| ![Windows の無効アイコン](assets/do-not-localize/win_disabled.png) | AEM デスクトップアプリケーションは起動していますが、サーバーに接続されていません。 一部のアセットの同期が保留されている可能性があります。 |
+| ![Windows の無効アイコン](assets/do-not-localize/win_disabled.png) | アプリは起動していますが、サーバーに接続されていません。 一部のアセットの同期が保留されている可能性があります。 |
 | ![Windows のファイル同期アイコン](assets/do-not-localize/win_sync.png) | アセットの同期中です。 ファイルはアップロード中またはダウンロード中です。 Asset Status ウィンドウで、ステータスの詳細を確認し、転送を一時停止できます。 |
 | ![Windows の再接続アイコン](assets/do-not-localize/win_refresh.png) | AEM デスクトップアプリケーションは再接続を試みています。 ネットワークの問題が発生し、切断された可能性があります。 |
 
@@ -173,7 +179,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
    ![カード表示の「Properties」オプション](assets/desktop_actions_in_card_view.png)
 
-   これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「Desktop Actions」アイコンをクリックまたはタップしても使用できます。
+   これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「デスクトップアクション」アイコンをクリックまたはタップしても使用できます。
 
 1. アセットを開くには、「Open on desktop」クイックアクション ![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png) をクリックまたはタップします。
 
@@ -192,7 +198,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
 ### macOS の Finder からのアセットのチェックアウト {#check-out-assets-on-mac}
 
-AEM デスクトップアプリケーションでは、作業中のファイルが他のユーザーによって変更されないように、アセットファイルをチェックアウトできます。
+アプリケーションでは、作業中のファイルが他のユーザーによって変更されないように、アセットファイルをチェックアウトできます。
 
 1. Mac のコンテキストメニューで「AEM Assets フォルダーを開く」オプションを選択して Finder を開きます。
 
@@ -202,7 +208,7 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
 1. チェックアウトするアセットに移動します。
 1. アセットを右クリックし、コンテキストメニューの「More Assets Info」を選択します。
-1. Asset Info ダイアログで、「Checkout」アイコンをクリックまたはタップして、アセットをチェックアウトします。 「Checkout」アイコンは、クリックまたはタップすると、「Check-in」アイコンに変わります。
+1. Asset Info ダイアログで、「Checkout」アイコンをクリックまたはタップして、アセットをチェックアウトします。 「チェックアウト」アイコンは、クリックまたはタップすると、「チェックイン」アイコンに変わります。
 
    ![チェックアウトするアセットを参照](assets/browse_assets_to_checkout.png)
 
@@ -210,7 +216,7 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
 ### アセットのチェックアウト（Windows の場合） {#check-out-assets-on-windows}
 
-AEM デスクトップアプリケーションでは、作業中のファイルが他のユーザーによって変更されないように、アセットファイルをチェックアウトできます。
+アプリケーションでは、作業中のファイルが他のユーザーによって変更されないように、アセットファイルをチェックアウトできます。
 
 1. コンテキストメニューの「アセットを探す」を選択してエクスプローラーを開きます。
 1. エクスプローラーで、チェックアウトするアセットの場所に移動します。
@@ -251,9 +257,9 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
    >
    >該当するアイコンをクリックまたはタップして、アップロードを手動で一時停止またはキャンセルすることができます。
 
-1. フォルダーがアップロードされたら、ダイアログを閉じて、Asssets UI に移動します。 アップロードされたフォルダーが web インターフェイスに表示されます。
+1. フォルダーがアップロードされたら、ダイアログを閉じて、Assets UI に移動します。 アップロードされたフォルダーが web インターフェイスに表示されます。
 
-アドビでは、多数のファイルやネストしたフォルダーをローカルファイルシステムからネットワーク共有領域にコピー＆ペーストしたりドラッグしたりしないことをお勧めします。 技術的な制限により、アプリがアップロード処理を制御できず、パフォーマンスも低下するからです。
+アドビでは、多数のファイルやネストしたフォルダーをローカルファイルシステムからネットワーク共有領域にコピー＆ペーストしたりドラッグしたりしないことをお勧めします。 技術的な制限により、アプリはアップロード処理を制御できず、パフォーマンスも低下します。
 
 または、Finder やエクスプローラーでファイル／フォルダーを選択してコピーし、ネットワーク共有領域の対象フォルダーに移動して、[!DNL Experience Manager] デスクトップアプリケーションのコンテキストメニューから「**アセットをペースト**」を選択します。 この場合、[!DNL Experience Manager] デスクトップアプリケーションは、[!DNL Experience Manager] web インターフェイスで使用できる「**フォルダーをアップロード**」オプションと同じように、ペーストしたアセットのアップロードを開始します。
 

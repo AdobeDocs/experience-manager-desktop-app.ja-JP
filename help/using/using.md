@@ -1,25 +1,36 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用'
-description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使用すると、Windows または Mac のデスクトップから直接 [!DNL Adobe Experience Manager]  DAM アセットを操作し、他のアプリケーションで使用することができます。'
+title: '[!DNL Experience Manager] デスクトップアプリケーションの使用'
+description: '[!DNL Adobe Experience Manager] デスクトップアプリを使用して、WinまたはMac デスクトップから[!DNL Adobe Experience Manager] DAM アセットを操作し、他のアプリケーションで使用できます。'
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-TQID: https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M
+TQID: 'https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 4093
-ht-degree: 100%
-
+source-wordcount: '4096'
+ht-degree: 99%
 ---
-
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用  {#use-aem-desktop-app-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して、ローカルデスクトップ上の [!DNL Adobe Experience Manager] DAM リポジトリに保存されたデジタルアセットにアクセスします。 その後、これらのアセットを任意のデスクトップアプリケーションで使用できます。 デスクトップアプリケーションでアセットをローカルに開いて編集できます。 変更を加えたら、バージョン管理を使用して [!DNL Experience Manager] にアップロードし直し、他のユーザーと更新を共有します。 また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
@@ -114,7 +125,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->大きなファイルまたは多数のファイルをダウンロードまたはアップロードするときは、アセットやフォルダーに対するアクションが無効になります。 これらのアクションは、ダウンロードまたはアップロードが完了すると使用可能になります。
+>大きなファイルまたは多数のファイルをダウンロードまたはアップロードすると、アプリケーションによってアセットやフォルダーに対するアクションが無効になります。 これらのアクションは、ダウンロードまたはアップロードが完了すると使用可能になります。
 
 キューのサイズが大きい場合や、ネットワークに問題が発生した場合は、複数のアセットをダウンロードするとパフォーマンスが低下する可能性があります。 また、フォルダーのダウンロード時には、知らないうちに、ダウンロードするアセットを多数キューに入れてしまう場合もあります。 待ち時間が長くならないようにするために、1 回の操作でダウンロードされるアセットの数が制限されています。 その設定方法については、[環境設定の指定](install-upgrade.md#set-preferences)を参照してください。 この制限を下回っていても、明らかに大きなフォルダーをダウンロードする場合は、その前に確認が求められることがあります。
 
@@ -124,7 +135,7 @@ ht-degree: 100%
 
 ## デスクトップでアセットを開く {#openondesktop-v2}
 
-リモートアセットを開いて、ネイティブアプリケーションで表示することができます。 アセットがローカルフォルダーにダウンロードされます。 その後、ファイル形式に関連付けられたネイティブアプリケーションで起動されます。 ネイティブアプリケーションを変更して、Mac または Windows で特定のファイルタイプ（拡張子）のアセットを開くことができます。
+リモートアセットを開いて、ネイティブアプリケーションで表示することができます。 アセットがローカルフォルダーにダウンロードされます。 その後、ファイル形式に関連付けられたネイティブアプリケーションで起動されます。 ネイティブアプリケーションを変更して、Mac または Windows で特定のファイルタイプ（拡張子）を開くことができます。
 
 アセットメニューから「**[!UICONTROL Open]**」を選択します。 アセットがローカルにダウンロードされ、ネイティブアプリケーションで開かれます。 大きなアセットの場合は、ステータスバーでダウンロードの進行状況と転送速度を確認します。
 
@@ -140,13 +151,13 @@ ht-degree: 100%
 
 ## ネイティブドキュメントへのアセットの配置 {#place-assets-in-native-documents}
 
-ネイティブドキュメントにアセットを配置する場合は、Windows エクスプローラーまたは Mac Finder でファイルにアクセスします。 ローカルにダウンロードしたファイルのファイルシステム上の場所に移動するには、![表示アイコン](assets/do-not-localize/reveal_action2_da2.png) 「**[!UICONTROL Reveal File]**」オプションを使用します。
+場合によっては、例えばアセットをネイティブドキュメントに配置するときに、Windows エクスプローラーまたは Mac Finder でファイルにアクセスします。 ローカルにダウンロードしたファイルのファイルシステム上の場所に移動するには、![表示アイコン](assets/do-not-localize/reveal_action2_da2.png) 「**[!UICONTROL Reveal File]**」オプションを使用します。
 
 ![アセットの「ファイルを表示」アクション](assets/revealfile_action_da2.png "アセットの「ファイルを表示」アクション")
 
 事前にローカルコンピューター上でファイルまたはフォルダーを選択して、「**[!UICONTROL Reveal File]**」または「**[!UICONTROL Reveal Folder]**」（フォルダーの場合）をクリックすると、Windows エクスプローラーまたは Mac Finder が開き、選択したファイルまたはフォルダーが表示されます。 例えば、このオプションは、ローカルファイルの配置やリンクをサポートしているネイティブアプリケーションに [!DNL Experience Manager] ファイルを配置する場合などに役に立ちます。 Adobe InDesign にファイルを配置する方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 
-**[!UICONTROL Reveal File]**&#x200B;アクションでは、ローカルネットワーク共有が開きます。 ローカルで使用可能なアセットのみが表示されます。 つまり、デスクトップアプリケーションを使用して公開、ダウンロード、開いた／編集したアセットが表示されます。 ローカルネットワーク共有からは、変更内容が [!DNL Experience Manager] にアップロードされません。 変更内容をアップロードするには、デスクトップアプリケーションで明示的に&#x200B;**[!UICONTROL Upload Changes]**&#x200B;または&#x200B;**[!UICONTROL Upload]**&#x200B;アクションを使用します。
+**[!UICONTROL Reveal File]**&#x200B;アクションでは、ローカルネットワーク共有が開きます。 ローカルで使用可能なアセットのみが表示されます。 つまり、デスクトップアプリケーションを使用して表示、ダウンロード、開いた／編集したアセットが表示されます。 ローカルネットワーク共有からは、変更内容が [!DNL Experience Manager] にアップロードされません。 変更内容をアップロードするには、デスクトップアプリケーションで明示的に&#x200B;**[!UICONTROL Upload Changes]**&#x200B;または&#x200B;**[!UICONTROL Upload]**&#x200B;アクションを使用します。
 
 >[!NOTE]
 >
@@ -353,12 +364,12 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 * 「[!UICONTROL Open]」をクリックしてアセットを編集しない。 ローカルにダウンロードしたアセットをファイルシステムフォルダーから開いて編集しないでください。 他のユーザーは、そのアセットが編集中であることがわかりません。
 * アセットを編集する場合は、必ず「[!UICONTROL Edit]」をクリックする。 これにより、ネイティブアプリケーションでアセットが開かれ、アセットにロックアイコンが表示されます。その結果、アセットが編集中であることが他のユーザーにわかります。
 * 「[!UICONTROL Toggle Check-in]」をクリックせずに誤って編集を開始した場合は、「[!UICONTROL Edit]」をクリックする。 この機能により、アセットにロックアイコンが追加されます。 後でアセットを編集する予定であっても、他のユーザーによる編集を避けたい場合は、「[!UICONTROL Toggle Check-in]」をクリックしてアセットをロックします。
-* アセットを編集する前に、そのアセットを他のユーザーが編集していないことを確認する。 アセットにロックアイコンが表示されていないかを確認します。
+* アセットを編集する前に、そのアセットを他のユーザーが編集していないことを確認します。 アセットにロックアイコンが表示されていないかを確認します。
 * 編集が完了したら、変更内容をすべてアップロードしてから、アセットをチェックインする。
 
 ![編集上の競合を示すステータス](assets/edits_conflicts_status_da2.png "編集上の競合を示すステータス")
 
-ローカルにダウンロードしたアセットが [!DNL Experience Manager] サーバー上で更新されると、アプリケーションに「**[!UICONTROL Modified remotely]**」ステータスが表示されます。 「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。 ダイアログボックスのリンクを使用すると、アセットのどちらのバージョンも表示できます。
+ローカルにダウンロードしたアセットが [!DNL Experience Manager] サーバー上で更新されると、アプリケーションに「**[!UICONTROL Modified remotely]**」ステータスが表示されます。 「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。 ダイアログのリンクを使用すると、アセットのどちらのバージョンも表示できます。
 
 ![アセットがリモートで変更された場合に競合を解決するオプション](assets/modified_remotely_dialog_da2.png "アセットがリモートで変更された場合に競合を解決するオプション")
 
@@ -395,7 +406,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 「[!UICONTROL Open]」アクションを使用してネイティブデスクトップアプリケーションでアセットを開くと、そのアセットがまだローカルで使用できない場合は、ローカルにダウンロードされます。 詳しくは、[アセットを開く](#openondesktop-v2)を参照してください。
 
-デスクトップアプリケーション内からアセットまたはフォルダーの場所を表示すると、そのアセットまたはフォルダーはまずローカルにダウンロードされてから、ユーザーのコンピューター上のローカルネットワーク共有内で開かれます。 詳しくは、[アセットを開く](#openondesktop-v2)を参照してください。
+アプリ内からアセットまたはフォルダーの場所を表示すると、そのアセットまたはフォルダーはまずローカルにダウンロードされ、その後、ユーザーのコンピューターのローカルネットワーク共有で開かれます。 詳しくは、[アセットを開く](#openondesktop-v2)を参照してください。
 
 「[!UICONTROL Edit]」アクションを使用してネイティブデスクトップアプリケーションでアセットを編集すると、そのアセットがまだローカルで使用できない場合は、ローカルにダウンロードされます。 詳しくは、「[アセットの編集と  [!DNL Experience Manager]](#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。
 
