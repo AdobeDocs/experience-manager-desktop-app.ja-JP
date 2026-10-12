@@ -1,25 +1,35 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用'
-description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用します。'
+title: '[!DNL Experience Manager] デスクトップアプリの使用'
+description: '[!DNL Adobe Experience Manager] デスクトップアプリを使用しています。'
 feature: Desktop App,Asset Management
 exl-id: cb5e4738-5695-4758-8322-37509421dfc8
-TQID: https://experienceleague.adobe.com/0xzk1jHHzvUk5J8Vq4KG-CbRCBfO4owT6xLhzPJs9Mw
+TQID: 'https://experienceleague.adobe.com/0xzk1jHHzvUk5J8Vq4KG-CbRCBfO4owT6xLhzPJs9Mw'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 97%
-
+source-wordcount: '452'
+ht-degree: 96%
 ---
-
 # デスクトップでアセットを開く {#openondesktop-v2}
 
-リモートアセットを開いて、ネイティブアプリケーションで表示することができます。 アセットがローカルフォルダーにダウンロードされます。 その後、ファイル形式に関連付けられたネイティブアプリケーションで起動されます。 ネイティブアプリケーションを変更して、Mac または Windows で特定のファイルタイプ（拡張子）のアセットを開くことができます。
+リモートアセットを開いて、ネイティブアプリケーションで表示することができます。 アセットがローカルフォルダーにダウンロードされます。 その後、ファイル形式に関連付けられたネイティブアプリケーションで起動されます。 ネイティブアプリケーションを変更して、Mac または Windows で特定のファイルタイプ（拡張子）を開くことができます。
 
 アセットメニューから「**[!UICONTROL Open]**」を選択します。 アセットがローカルにダウンロードされ、ネイティブアプリケーションで開かれます。 大きなアセットの場合は、ステータスバーでダウンロードの進行状況と転送速度を確認します。
 
@@ -35,13 +45,13 @@ ht-degree: 97%
 
 ## ネイティブドキュメントへのアセットの配置 {#place-assets-in-native-documents}
 
-ネイティブドキュメントにアセットを配置する場合は、Windows エクスプローラーまたは Mac Finder でファイルにアクセスします。 ローカルにダウンロードしたファイルのファイルシステム上の場所に移動するには、![表示アイコン](assets/do-not-localize/reveal_action2_da2.png) 「**[!UICONTROL Reveal File]**」オプションを使用します。
+場合によっては、例えばアセットをネイティブドキュメントに配置するときに、Windows エクスプローラーまたは Mac Finder でファイルにアクセスします。 ローカルにダウンロードしたファイルのファイルシステム上の場所に移動するには、![表示アイコン](assets/do-not-localize/reveal_action2_da2.png) 「**[!UICONTROL Reveal File]**」オプションを使用します。
 
 ![アセットの「ファイルを表示」アクション](assets/revealfile_action_da2.png "アセットの「ファイルを表示」アクション")
 
 事前にローカルコンピューター上でファイルまたはフォルダーを選択して、「**[!UICONTROL Reveal File]**」または「**[!UICONTROL Reveal Folder]**」（フォルダーの場合）をクリックすると、Windows エクスプローラーまたは Mac Finder が開き、選択したファイルまたはフォルダーが表示されます。 例えば、このオプションは、ローカルファイルの配置やリンクをサポートしているネイティブアプリケーションに [!DNL Experience Manager] ファイルを配置する場合などに役に立ちます。 Adobe InDesign にファイルを配置する方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 
-**[!UICONTROL Reveal File]**&#x200B;アクションでは、ローカルネットワーク共有が開きます。 ローカルで使用可能なアセットのみが表示されます。 つまり、デスクトップアプリケーションを使用して公開、ダウンロード、開いた／編集したアセットが表示されます。 ローカルネットワーク共有からは、変更内容が [!DNL Experience Manager] にアップロードされません。 変更内容をアップロードするには、デスクトップアプリケーションで明示的に&#x200B;**[!UICONTROL Upload Changes]**&#x200B;または&#x200B;**[!UICONTROL Upload]**&#x200B;アクションを使用します。
+**[!UICONTROL Reveal File]**&#x200B;アクションでは、ローカルネットワーク共有が開きます。 ローカルで使用可能なアセットのみが表示されます。 つまり、デスクトップアプリケーションを使用して表示、ダウンロード、開いた／編集したアセットが表示されます。 ローカルネットワーク共有からは、変更内容が [!DNL Experience Manager] にアップロードされません。 変更内容をアップロードするには、デスクトップアプリケーションで明示的に&#x200B;**[!UICONTROL Upload Changes]**&#x200B;または&#x200B;**[!UICONTROL Upload]**&#x200B;アクションを使用します。
 
 >[!NOTE]
 >

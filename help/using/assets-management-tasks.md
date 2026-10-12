@@ -1,24 +1,35 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用'
-description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使用すると、Windows または Mac のデスクトップから直接 [!DNL Adobe Experience Manager]  DAM アセットを操作し、他のアプリケーションで使用することができます。'
+title: '[!DNL Experience Manager] デスクトップアプリケーションの使用'
+description: '[!DNL Adobe Experience Manager] デスクトップアプリを使用して、WinまたはMac デスクトップから[!DNL Adobe Experience Manager] DAM アセットを操作し、他のアプリケーションで使用できます。'
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 99%
-
+source-wordcount: '1441'
+ht-degree: 97%
 ---
-
 # [!DNL AEM Desktop App] でのAssets管理タスク {#assets-management-tasks}
 
 アセット管理では、ワークフローを合理化するためのデジタルアセットの整理、維持管理および最適化を行います。 これには、ファイルの複製と名前変更、クイックアクセスのためのフォルダーのピン留めまたはピン留め解除、様々なレイアウトでのアセットの表示などのタスクが含まれます。 これにより、効率が向上し、アセットのトラッキングが簡素化され、複数のプラットフォーム間でデジタルアセットを簡単に取得および整理できます。
@@ -43,7 +54,7 @@ AEM デスクトップアプリでアセットの様々なビューの中から�
 
 ## 新しく追加されたフォルダーとファイルを表示 {#view-newly-added-files-folders}
 
-新しく作成したアセットをローカルマシンから、中央リポジトリが格納されている AEM にアップロードできます。 これらの新しく作成されたアセットをローカルに表示するには、**[!UICONTROL View]** ドロップダウンメニューに移動して「**[!UICONTROL Show Assets]**」を選択し、タイムラインとタイトルを含むすべてのアップデートを表示するか、「**[!UICONTROL Edited Locally]**」を選択します。 どちらのオプションでも、ローカルに編集されたアセットが明示的に表示されます。
+新しく作成したアセットをローカルマシンから、中央リポジトリを保存している AEM にアップロードできます。 これらの新しく作成されたアセットをローカルに表示するには、**[!UICONTROL View]** ドロップダウンメニューに移動して「**[!UICONTROL Show Assets]**」を選択し、タイムラインとタイトルを含むすべてのアップデートを表示するか、「**[!UICONTROL Edited Locally]**」を選択します。 どちらのオプションでも、ローカルに編集されたアセットが明示的に表示されます。
 
 ## 重複ファイル {#duplicate-files}
 
@@ -61,7 +72,7 @@ AEM デスクトップアプリでファイルを複製するには、次の手�
 
 ## アセットやフォルダーのタイトルの名前を変更する {#rename-asset-title}
 
-アセットやフォルダーのタイトルの名前を変更するには、次の手順を実行します。
+アセットやフォルダーのタイトルを変更するには、次の手順を実行します。
 
 1. 名前を変更するアセットを参照します。 フォルダーに名前を付ける場合、`\ / : * ?  | < > [ ] %` ; などの特殊文字は使用できません。 含める場合は、自動的にハイフン `-` に置き換えられます。
 
@@ -70,7 +81,7 @@ AEM デスクトップアプリでファイルを複製するには、次の手�
 
 ## フォルダーのピン留めまたはピン留めを解除 {#pin-unpin-folder}
 
-ピン留めされたフォルダーは、アプリ内でネイティブに行われた変更を反映するように自動的に同期されます。 クイックアクセスを行うには、次の手順を実行して、フォルダーをピン留めまたはピン留めを解除します。
+ピン留めされたフォルダーは、アプリ内で直接行われた変更を反映するように自動的に同期されます。 クイックアクセスを行うには、次の手順を実行して、フォルダーをピン留めまたはピン留めを解除します。
 
 1. ピン留めまたはピン留めを解除するアセットを参照します。
 
@@ -133,12 +144,12 @@ AEM デスクトップアプリを使用して、新しいフォルダーを作�
 * 「[!UICONTROL Open]」をクリックしてアセットを編集しない。 ローカルにダウンロードしたアセットをファイルシステムフォルダーから開いて編集しないでください。 他のユーザーは、そのアセットが編集中であることがわかりません。
 * アセットを編集する場合は、必ず「[!UICONTROL Edit]」をクリックする。 これにより、ネイティブアプリケーションでアセットが開かれ、アセットにロックアイコンが表示されます。その結果、アセットが編集中であることが他のユーザーにわかります。
 * 「[!UICONTROL Toggle Check-in]」をクリックせずに誤って編集を開始した場合は、「[!UICONTROL Edit]」をクリックする。 この機能により、アセットにロックアイコンが追加されます。 後でアセットを編集する予定であっても、他のユーザーによる編集を避けたい場合は、「[!UICONTROL Toggle Check-in]」をクリックしてアセットをロックします。
-* アセットを編集する前に、そのアセットを他のユーザーが編集していないことを確認する。 アセットにロックアイコンが表示されていないかを確認します。
+* アセットを編集する前に、そのアセットを他のユーザーが編集していないことを確認します。 アセットにロックアイコンが表示されていないかを確認します。
 * 編集が完了したら、変更内容をすべてアップロードしてから、アセットをチェックインする。
 
 ![編集上の競合を示すステータス](assets/edits_conflicts_status_da2.png "編集上の競合を示すステータス")
 
-ローカルにダウンロードしたアセットが [!DNL Experience Manager] サーバー上で更新されると、アプリケーションに「**[!UICONTROL Modified remotely]**」ステータスが表示されます。 「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。 ダイアログボックスのリンクを使用すると、アセットのどちらのバージョンも表示できます。
+ローカルにダウンロードしたアセットが [!DNL Experience Manager] サーバー上で更新されると、アプリケーションに「**[!UICONTROL Modified remotely]**」ステータスが表示されます。 「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。 ダイアログのリンクを使用すると、アセットのどちらのバージョンも表示できます。
 
 ![アセットがリモートで変更された場合に競合を解決するオプション](assets/modified_remotely_dialog_da2.png "アセットがリモートで変更された場合に競合を解決するオプション")
 

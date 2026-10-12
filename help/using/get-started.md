@@ -1,24 +1,35 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションを今すぐ始める'
-description: ' [!DNL Experience Manager]  デスクトップアプリケーションが、スムーズなワークフローと生産性向上機能によって、コンテンツの作成と公開をどのように強化する方法について説明します。'
+title: '[!DNL Experience Manager] デスクトップアプリの基本を学ぶ'
+description: '[!DNL Experience Manager] デスクトップアプリが、合理化されたワークフローと生産性の機能を使用して、コンテンツの作成と公開を強化する方法について説明します。'
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-TQID: https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI
+TQID: 'https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1231
-ht-degree: 99%
-
+source-wordcount: '1233'
+ht-degree: 97%
 ---
-
 # [!DNL Adobe Experience Manager] デスクトップアプリケーション使用の基本を学ぶ {#getting-started-desktop-app}
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して、ローカルデスクトップ上の [!DNL Adobe Experience Manager] DAM リポジトリに保存されたデジタルアセットにアクセスします。 その後、これらのアセットを任意のデスクトップアプリケーションで使用できます。 デスクトップアプリケーションでアセットをローカルに開いて編集できます。 変更を加えたら、バージョン管理を使用して [!DNL Experience Manager] にアップロードし直し、他のユーザーと更新を共有します。 また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
@@ -88,7 +99,7 @@ Assets Web インターフェイスで以下のアクションを実行しよう
 
 * [!UICONTROL Open]、[!UICONTROL Edit]、[!UICONTROL Reveal]が実行可能な [!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
-* [!UICONTROL Check-out] か [!UICONTROL check-in] のどちらかにする必要があります。
+* [!UICONTROL Check-out] または [!UICONTROL check-in]
 
 例えば、アプリケーションでチェックアウトされたアセットに対して Web インターフェイス上で使用できるアクションは、[!UICONTROL Open]、[!UICONTROL Reveal]、[!UICONTROL Check in]です。
 
